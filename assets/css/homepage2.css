@@ -1,0 +1,56 @@
+html { 
+    background-color: white;
+} 
+  
+body{
+       font-family: "della respira";  
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+ a:hover {
+   text-underline-position: below;
+     
+ }
+
+.myname
+{
+    font-size: 6vh;
+ 
+    padding-left: 75px;
+    padding-top: 25px;
+    padding-bottom:15px;
+}
+.curly
+{
+    width: 80vh;
+    margin-left: 5vh;
+}
+
+.work
+{ 
+margin-left: 9vh;
+    font-family: "della respira";  
+     font-size: 6vh;
+}
+
+.about {
+margin-left: 70vh;
+     font-size: 5vh;
+    font-family: "della respira";  
+ }
+.text {
+     font-size: 9vh;
+    font-family: "della respira"; 
+  padding-left: 75px;
+    padding-top: 25px;
+    padding-bottom:15px;
+}
+}
+
+
+        
+
