@@ -1,7 +1,18 @@
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+ a:hover {
+   text-underline-position: below;
+     
+ }
+
+
 .text
 {
     font-size: 5vh;
     font-family: "della respira";  
-    margin-right: 40vh;
+    
 
 }
