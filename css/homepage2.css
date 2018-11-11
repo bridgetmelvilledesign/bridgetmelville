@@ -1,0 +1,43 @@
+html { 
+    cursor: url(test.svg), auto;
+    background-color: white;
+} 
+    
+.myname
+{
+    font-size: 6vh;
+    font-family: "della respira";
+    padding-left: 75px;
+    padding-top: 25px;
+    padding-bottom:15px;
+}
+svg {
+    
+}
+.curly
+{
+    width: 80vh;
+    margin-left: 5vh;
+}
+
+
+.linkstyle {
+  font-size: 6vh;
+    font-family: "della respira"  
+}
+
+.work
+{ 
+margin-left: 9vh;
+    
+}
+
+.about {
+margin-left: 70vh;
+
+            
+    }
+
+        
+
+
