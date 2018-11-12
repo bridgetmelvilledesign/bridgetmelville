@@ -49,19 +49,21 @@ a {
 
 .taylor
 {
+   margin-left:300px;
     font-size: 20px;
-   
-    padding-top: 0px;
+   padding-top: 0px;
     font-family: "della respira"
         }
 .vertical
 {
+    margin-top:20%;
    font-size: 20px;
     font-family: "della respira";  
       position:fixed;
-    padding-left:70px;
-    margin-right:75%;
+    padding-left:60px;
+    margin-right:80%;
     margin-top: 8%;
+
   
 }
 .horizontal
@@ -69,8 +71,8 @@ a {
    font-size: 20px;
     font-family: "della respira";  
       position:fixed;
-    padding-left:70px;
-    margin-right:80%;
+    padding-left:60px;
+    margin-right:77%;
     margin-top: 8%;
   
 }
