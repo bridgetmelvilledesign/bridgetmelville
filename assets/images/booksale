@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+
+    <link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+    
+<link rel="stylesheet" href="assets/css/aboutme.css">
+<div class="back" align="left"><a href="work.html"><img src="assets/images/arrow.jpg" width=124 height=70>back</a></div>
+    
+
+        <div class=""> A collaborative project to raise funds for our graduation show. Designers involved: Bridget Melville<br>Liz Luby<br>James Meadowcroft<br>Joanna Leucuta<br>Georgia Townley<br> Martha Ramsay<br>Selena Repanis 
+        <br>(other)</div>
+    
+    <div class="taylor" align="center">
+   <br>
+            
+  <img src="assets/images/shirt-1.jpg" width="645px" height="900px">
+      <br>
+            <br>
+              <img src="assets/images/shirt-2.jpg" width="645px" height="900px">
+             <br>
+            <br>
+              <img src="assets/images/shirt-3" width="645px" height="900px">
+            </div>
+    
+</html>
