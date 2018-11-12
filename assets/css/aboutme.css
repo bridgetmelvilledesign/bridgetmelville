@@ -77,9 +77,4 @@ a {
   
 }
 
-   @media screen and (max-width: 600px) {
-    /* For mobile phones: */
-    .about {
-      width: 100%;
-    }   
 
