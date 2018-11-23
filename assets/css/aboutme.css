@@ -30,6 +30,7 @@ a {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+   opacity:100
 }
 
 
@@ -93,4 +94,19 @@ a {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  opacity:100;
 }
+
+
+
+    /* if mobile device max width 380px */
+    @media only screen and (max-device-width: 380px) {
+        .squiggle{opacity:0;}       
+        .menu {opacity:0;}
+    } 
+
+    /* if mobile device max width 480px */
+    @media only screen and (max-device-width: 480px) {
+       .squiggle{opacity:0;}       
+        .menu {opacity:0;}
+    }
