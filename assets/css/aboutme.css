@@ -104,6 +104,7 @@ a {
         .squiggle{opacity:0;}       
         .menu {opacity:0;}
        width=100%;
+       .title{transform: scale(0.7);}
     } 
 
     /* if mobile device max width 480px */
@@ -111,4 +112,5 @@ a {
        .squiggle{opacity:0;}       
         .menu {opacity:0;}
       width=100%;
+      .title{transform: scale(0.7);}
     }
