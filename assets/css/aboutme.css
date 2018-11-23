@@ -112,5 +112,5 @@ a {
        .squiggle{opacity:0;}       
         .menu {opacity:0;}
       width=100%;
-      .title{transform: scale(0.7);}
+      .title{transform: scale(0.7); align:center;}
     }
