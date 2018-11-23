@@ -84,6 +84,7 @@ a {
 .squiggle
 {
    font-size: 30px;
+    padding-top: 5px;
     font-family: "della respira";  
   padding-left: 85%;
     z-index: -1;
