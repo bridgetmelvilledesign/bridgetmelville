@@ -104,7 +104,8 @@ a {
     @media only screen and (max-device-width: 380px) {
         .squiggle{opacity:0;}       
         .menu {opacity:0;}
-      .title{width:50%;height:50%}
+     .title{width: 100%;
+          height: auto;}
   
     } 
 
@@ -112,6 +113,7 @@ a {
     @media only screen and (max-device-width: 480px) {
        .squiggle{opacity:0;}       
         .menu {opacity:0;}
-        .title{width:50%;height:50%}
+        .title{width: 100%;
+          height: auto;}
 
     }
