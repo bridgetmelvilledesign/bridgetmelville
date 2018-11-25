@@ -122,8 +122,8 @@ a {
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
-       .squiggle{opacity:0; padding-right:500px}       
-        .menu {opacity:0; padding-right:500px}
+       .squiggle{opacity:0; height:1px; width:1px;}       
+        .menu {opacity:0; height:1px; width:1px;}
         .title img{width:100%;
           height: auto;}
 .hidden-about
