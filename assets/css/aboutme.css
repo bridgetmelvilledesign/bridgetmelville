@@ -108,7 +108,7 @@ a {
 
     /* if mobile device max width 380px */
     @media only screen and (max-device-width: 380px) {
-        .squiggle{opacity:0;}       
+        .squiggle{opacity:0;  padding-right:500px}       
         .menu {opacity:0;}
      .title img{width: auto%;
           height: auto;}
@@ -120,7 +120,7 @@ a {
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
-       .squiggle{opacity:0;}       
+       .squiggle{opacity:0; padding-right:500px}       
         .menu {opacity:0;}
         .title img{width: auto%;
           height: auto;}
