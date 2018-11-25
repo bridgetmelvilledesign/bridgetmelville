@@ -118,6 +118,11 @@ a {
           height: auto;}
       .hidden-about
 {opacity:100;}
+      {
+  padding-right:40%px;
+width:100%;
+      }
+
 
   
     } 
@@ -132,4 +137,8 @@ a {
           height: auto;}
 .hidden-about
 {opacity:100;}
-    }
+ .text
+{
+  padding-right:40%px;
+width:100%;
+      }
