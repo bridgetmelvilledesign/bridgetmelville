@@ -103,16 +103,16 @@ a {
     @media only screen and (max-device-width: 380px) {
         .squiggle{opacity:0;}       
         .menu {opacity:0;}
-       width=50%;
-      height=50%;
-       .title{transform:scale(0.5);}
+       width=20%;
+      height=20%;
+  
     } 
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
        .squiggle{opacity:0;}       
         .menu {opacity:0;}
-       width=50%;
-      height=50%;
-      .title{transform: scale(0.5); align:center;}
+       width=20%;
+      height=20%;
+
     }
