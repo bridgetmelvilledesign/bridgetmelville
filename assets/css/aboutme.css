@@ -111,7 +111,7 @@ a {
     /* if mobile device max width 380px */
     @media only screen and (max-device-width: 380px) {
         .squiggle{opacity:0;  padding-right:500px}       
-        .menu {opacity:0;}
+        .menu {opacity:0; padding-right:500px}
      .title img{width: 100%;
           height: auto;}
       .hidden-about
@@ -123,7 +123,7 @@ a {
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
        .squiggle{opacity:0; padding-right:500px}       
-        .menu {opacity:0;}
+        .menu {opacity:0; padding-right:500px}
         .title img{width:100%;
           height: auto;}
 .hidden-about
