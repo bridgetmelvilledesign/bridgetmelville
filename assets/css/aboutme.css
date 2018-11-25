@@ -110,8 +110,10 @@ a {
 
     /* if mobile device max width 380px */
     @media only screen and (max-device-width: 380px) {
-        .squiggle img{opacity:0;  padding-right:500px}       
-        .menu img {opacity:0; padding-right:500px}
+          .squiggle img{opacity:0; height:1px; width:1px;}       
+        .menu img {opacity:0; height:1px; width:1px;}
+        .squiggle {opacity:0; height:1px; width:1px;}       
+        .menu {opacity:0; height:1px; width:1px;}
      .title img{width: 100%;
           height: auto;}
       .hidden-about
@@ -124,6 +126,8 @@ a {
     @media only screen and (max-device-width: 480px) {
        .squiggle img{opacity:0; height:1px; width:1px;}       
         .menu img {opacity:0; height:1px; width:1px;}
+        .squiggle {opacity:0; height:1px; width:1px;}       
+        .menu {opacity:0; height:1px; width:1px;}
         .title img{width:100%;
           height: auto;}
 .hidden-about
