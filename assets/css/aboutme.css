@@ -116,6 +116,7 @@ a {
         .menu {opacity:0; height:1px; width:1px;}
      .title img{width: 100%;
           height: auto;}
+          .back{font-size:30px;}
       .hidden-about
 {opacity:100;}
       {
@@ -135,6 +136,7 @@ width:100%;
         .menu {opacity:0; height:1px; width:1px;}
         .title img{width:100%;
           height: auto;}
+      .back{font-size:30px;}
 .hidden-about
 {opacity:100;}
  .text
