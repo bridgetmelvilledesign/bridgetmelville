@@ -112,7 +112,7 @@ a {
     @media only screen and (max-device-width: 380px) {
         .squiggle{opacity:0;  padding-right:500px}       
         .menu {opacity:0;}
-     .title img{width: auto%;
+     .title img{width: 100%;
           height: auto;}
       .hidden-about
 {opacity:100;}
@@ -124,7 +124,7 @@ a {
     @media only screen and (max-device-width: 480px) {
        .squiggle{opacity:0; padding-right:500px}       
         .menu {opacity:0;}
-        .title img{width: auto%;
+        .title img{width:100%;
           height: auto;}
 .hidden-about
 {opacity:100;}
