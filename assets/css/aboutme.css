@@ -103,8 +103,9 @@ a {
 .hidden-about
 {opacity:0;
   font-family: "della respira";  
-  padding-left:20px;
-  font-size:30px;
+  padding-left:0px;
+  padding-bottom: 0px;
+  font-size:0px;
 }
 
 
@@ -120,6 +121,8 @@ a {
           .back{font-size:30px;}
       .hidden-about
 {opacity:100;
+    padding-left:20px;
+  font-size:30px;
       padding-bottom: 20px;}
       {
   padding-right:40%px;
@@ -141,6 +144,8 @@ width:100%;
       .back{font-size:30px; padding-left:0%;}
 .hidden-about
 {opacity:100;
+    padding-left:20px;
+  font-size:30px;
          padding-bottom: 20px;}
  .text
 {
