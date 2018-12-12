@@ -22,17 +22,15 @@ position: relative;
         padding-right: 6%;
 align-content: center;
      margin:0;
+}
     
     
     @font-face {
 font-family: "Basis";
-src: url("fonts/Basis.otf");
-src: 
-url("fonts/Basis.otf") format("opentype"),
+src: url("fonts/Basis.otf") format("opentype"),
 }
 
 
-}
 
 
 .myname
