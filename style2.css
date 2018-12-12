@@ -12,8 +12,7 @@ position: relative;
 }
 .text
 {
-    font-family:chivo,sans-serif; 
-    font-weight: 400;
+    font-family:'Basis',sans-serif; 
     font-size: 16px;
     position: relative;
     height: 15%;
@@ -36,7 +35,6 @@ src: url("fonts/Basis.otf") format("opentype"),
 .myname
 {
     font-family:'Basis',sans-serif; 
-    font-weight: 500;
     font-size: 26px;
     position: fixed;
     height: 15%;
@@ -53,7 +51,6 @@ align-content: center;
 .description
 {
     margin:0;
-    font-weight: 400;
     font-family: 'Basis',sans-serif;
     font-size: 14px;
     position: fixed;
