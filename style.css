@@ -27,6 +27,15 @@ align-content: center;
     
 }
 
+@font-face {
+   font-family: Basis, sans-serif;
+   src: url(fonts/Basis.otf);
+}
+
+
+* {
+   font-family: Basis; san-serif,
+}
 
 .myname
 {
