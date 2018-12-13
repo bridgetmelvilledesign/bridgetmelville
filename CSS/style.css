@@ -8,6 +8,7 @@ position: auto;
 
     
 @font-face {
+    -webkit-font-smoothing: antialiased
     font-family: 'Moderat-Regular';
     font-weight: normal;
     src: url('webfonts/Moderat-Regular.eot');
