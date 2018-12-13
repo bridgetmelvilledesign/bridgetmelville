@@ -33,6 +33,7 @@ text-rendering: optimizeLegibility;
 {
     font-family:'Moderat-Regular',sans-serif; 
     font-size: 18px;
+    font-weight: normal;
     position: relative;
     height: 15%;
     width:50%;
@@ -44,6 +45,7 @@ align-content: center;
 .myname
 {
     font-family:'Moderat-Regular',sans-serif; 
+     font-weight: normal;
     font-size: 30px;
     position: fixed;
     height: 15%;
