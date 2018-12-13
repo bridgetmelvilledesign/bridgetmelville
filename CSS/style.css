@@ -1,22 +1,17 @@
 html, body {
-
-
-
 margin:0;
-
 padding:0;
     background-color:#f4e2c9;
     z-index:-1;
-position: relative;
-
+position: auto;
 }
-
 @font-face {
     font-family: 'Moderat-Regular';
-    src: url("webfonts/Moderat-Regular.woff") format('woff');
-     src: url("webfonts/Moderat-Regular.otf") format('otf');
-     src: url("webfonts/Moderat-Regular.eot") format('eot');
-      src: url("webfonts/Moderat-Regular.ttf") format('ttf');
+    src: url('webfonts/Moderat-Regular.woff') format('woff');
+     src: url('webfonts/Moderat-Regular.otf') format('otf');
+     src: url('webfonts/Moderat-Regular.eot') format('eot');
+      src: url('webfonts/Moderat-Regular.ttf') format('ttf');
+    src: url ('webfonts/Moderat-Regular.woff2') format ('woff2');
     font-weight: normal;
 font-style: normal;
 }
