@@ -7,12 +7,16 @@ position: auto;
 }
 @font-face {
     font-family: 'Moderat-Regular';
-    src: url('webfonts/Moderat-Regular.woff') format('woff');
-     src: url('webfonts/Moderat-Regular.otf') format('otf');
-     src: url('webfonts/Moderat-Regular.eot') format('eot');
-      src: url('webfonts/Moderat-Regular.ttf') format('ttf');
-    src: url('webfonts/Moderat-Regular.woff2') format ('woff2');
-    font-weight: normal;
+    src: url('webfonts/Moderat-Regular.woff') format('woff'),
+     src: url('webfonts/Moderat-Regular.otf') format('otf'),
+     src: url('webfonts/Moderat-Regular.eot') format('eot'),
+      src: url('webfonts/Moderat-Regular.ttf') format('ttf'),
+        src: url('webfonts/Moderat-Regular.woff2') format ('woff2'),}
+          font-weight: 400;
+    
+.Moderat-regular
+{font-weight: normal;
+    font-family:'Moderat-regular';
 font-style: normal;
 }
  * {
