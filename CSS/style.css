@@ -10,9 +10,13 @@ padding:0;
 position: relative;
 
 }
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/Moderat-Regular.woff") format('woff');
+}
 .text
 {
-    font-family:chivo,sans-serif; 
+    font-family:'Moderat-Regular',sans-serif; 
     font-weight: 500;
     font-size: 20px;
     position: relative;
@@ -22,22 +26,10 @@ position: relative;
         padding-right: 6%;
 align-content: center;
      margin:0;
-    
-    
-    @font-face {
-font-family: "Basis";
-src: url("fonts/Basis.otf");
-src: 
-url("css/fonts/Harabara.otf") format("opentype"),
 }
-
-
-}
-
-
 .myname
 {
-    font-family:'Basis',sans-serif; 
+    font-family:'Moderat-Regular',sans-serif; 
     font-weight: 500;
     font-size: 30px;
     position: fixed;
@@ -56,7 +48,7 @@ align-content: center;
 {
     margin:0;
     font-weight: 400;
-    font-family: 'Basis',sans-serif;
+    font-family:'Moderat-Regular',sans-serif;
     font-size: 18px;
     position: fixed;
     width: 15%;
@@ -70,8 +62,7 @@ align-content: center;
 .top
 {
     margin:0;
-    font-weight: 400;
-    font-family: chivo,sans-serif;
+    font-family: 'Moderat-Regular',sans-serif;
     font-size: 18px;
     position: fixed;
     width: 15%;
@@ -141,15 +132,6 @@ margin-left: 25%;
     z-index: 0;
 
 }
-.box
-{
-    background-color: aqua;
-    margin-left=50%
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    width: auto;
-    height:250px;
-}
  a
 {
   color:inherit;
@@ -167,7 +149,7 @@ margin-left: 25%;
 margin-left: 33%;
   position: relative;
     z-index: 1;
-         font-family: chivo;
+         font-family: 'Moderat-Regular';
 }
 
 .slideshow-container {
@@ -175,7 +157,7 @@ margin-left: 33%;
     margin-left: 33%;
   position: relative;
     z-index: 1;
-         font-family: chivo;
+         font-family: 'Moderat-Regular';
 }
 
 /* Next & previous buttons */
