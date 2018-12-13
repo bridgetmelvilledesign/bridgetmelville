@@ -7,6 +7,12 @@ padding:0;
 position: auto;
 }
 
+/* Font rendering */
+body #wrap_all{
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
     
 @font-face {
 
