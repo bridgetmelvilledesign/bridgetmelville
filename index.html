@@ -5,6 +5,25 @@
  <link href="https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+ # ----------------------------------------------------------------------
+# Webfont access
+# ----------------------------------------------------------------------
+
+# Allow access from all domains for webfonts.
+# Alternatively you could only whitelist your
+# subdomains like "subdomain.example.com".
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+
+# Webfonts
+AddType application/vnd.ms-fontobject  eot
+AddType application/x-font-ttf         ttf ttc
+AddType font/opentype                  otf
+AddType application/x-font-woff        woff
 
 <body>
 <div><a name="top"></a></div>
