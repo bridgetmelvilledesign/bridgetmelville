@@ -25,7 +25,6 @@ font-style: normal;
 .text
 {
     font-family:'Moderat-Regular',sans-serif; 
-    font-weight: 500;
     font-size: 20px;
     position: relative;
     height: 15%;
@@ -38,7 +37,6 @@ align-content: center;
 .myname
 {
     font-family:'Moderat-Regular',sans-serif; 
-    font-weight: 500;
     font-size: 30px;
     position: fixed;
     height: 15%;
@@ -55,7 +53,6 @@ align-content: center;
 .description
 {
     margin:0;
-    font-weight: 400;
     font-family:'Moderat-Regular',sans-serif;
     font-size: 18px;
     position: fixed;
