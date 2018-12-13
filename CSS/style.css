@@ -26,9 +26,9 @@ AddType application/x-font-woff        woff
 
 @font-face {
     font-family: 'Moderat-Regular';
-    src: url("fonts/Moderat-Regular.woff") format('woff'),
-     src: url("fonts/Moderat-Regular.otf") format('otf'),
-     src: url("fonts/Moderat-Regular.eot") format('eot'),
+    src: url("CSS/fonts/Moderat-Regular.woff") format('woff'),
+     src: url("CSS/fonts/Moderat-Regular.otf") format('otf'),
+     src: url("CSS/fonts/Moderat-Regular.eot") format('eot'),
     font-weight: normal;
 font-style: normal;
 }
