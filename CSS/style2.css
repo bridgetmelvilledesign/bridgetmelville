@@ -12,7 +12,7 @@ position: relative;
 }
 .text
 {
-    font-family:chivo,sans-serif; 
+    font-family: Moderat-Regular,sans-serif; 
     font-weight: 400;
     font-size: 16px;
     position: relative;
@@ -23,21 +23,10 @@ position: relative;
 align-content: center;
      margin:0;
     
-    
-    @font-face {
-font-family: "Basis";
-src: url("fonts/Basis.otf");
-src: 
-url("fonts/Basis.otf") format("opentype"),
-}
-
-
-}
-
 
 .myname
 {
-    font-family:'Basis',sans-serif; 
+    font-family: Moderat-Regular,sans-serif; 
     font-weight: 500;
     font-size: 26px;
     position: fixed;
@@ -56,7 +45,7 @@ align-content: center;
 {
     margin:0;
     font-weight: 400;
-    font-family: 'Basis',sans-serif;
+    font-family:  Moderat-Regular,sans-serif;
     font-size: 14px;
     position: fixed;
     width: 15%;
@@ -71,7 +60,7 @@ align-content: center;
 {
     margin:0;
     font-weight: 400;
-    font-family: 'Basis',sans-serif;
+    font-family:  Moderat-Regular,sans-serif;
     font-size: 14px;
     position: fixed;
     width: 15%;
@@ -167,7 +156,7 @@ margin-left: 25%;
 margin-left: 33%;
   position: relative;
     z-index: 1;
-         font-family: chivo;
+         font-family:  Moderat-Regular;
 }
 
 .slideshow-container {
@@ -175,7 +164,7 @@ margin-left: 33%;
     margin-left: 33%;
   position: relative;
     z-index: 1;
-         font-family: chivo;
+         font-family:  Moderat-Regular;
 }
 
 /* Next & previous buttons */
