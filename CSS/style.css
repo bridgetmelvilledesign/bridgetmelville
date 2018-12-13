@@ -20,6 +20,9 @@ position: relative;
     font-weight: normal;
 font-style: normal;
 }
+ * {
+   font-family: Moderat-Regular;
+}
 
 
 .text
