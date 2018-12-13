@@ -16,6 +16,7 @@ position: relative;
     src: url("webfonts/Moderat-Regular.woff") format('woff');
      src: url("webfonts/Moderat-Regular.otf") format('otf');
      src: url("webfonts/Moderat-Regular.eot") format('eot');
+      src: url("webfonts/Moderat-Regular.ttf") format('ttf');
     font-weight: normal;
 font-style: normal;
 }
