@@ -29,14 +29,18 @@ AddType application/vnd.ms-fontobject  eot
 AddType application/x-font-ttf         ttf ttc
 AddType font/opentype                  otf
 AddType application/x-font-woff        woff
+
+
 @font-face {
-    font-family: "Moderat-Regular";
+    font-family: 'Moderat-Regular';
     src: url("fonts/Moderat-Regular.woff") format('woff'),
      src: url("fonts/Moderat-Regular.otf") format('otf'),
      src: url("fonts/Moderat-Regular.eot") format('eot'),
     font-weight: normal;
 font-style: normal;
 }
+
+
 .text
 {
     font-family:'Moderat-Regular',sans-serif; 
