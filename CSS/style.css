@@ -3,7 +3,7 @@ html, body {
 margin:0;
 padding:0;
     background-color:#f4e2c9;
-    z-index:-1;
+    z-index:-19;
 position: auto;
 }
 
@@ -39,6 +39,7 @@ text-rendering: optimizeLegibility;
     width:50%;
     padding-left:33%;
         padding-right: 6%;
+    padding-bottom: 50px;
 align-content: center;
      margin:0;
 }
@@ -48,13 +49,12 @@ align-content: center;
      font-weight: normal;
     font-size: 30px;
     position: fixed;
-    height: 15%;
-    width:20%;
-    padding-left:75px;
-        padding-right: 6%;
-    padding-top: 4%;
+   height: 15%;
+    width:15%;
+    margin-left:5%;
+        margin-right:90%;
+    padding-top: 5%;
 align-content: center;
-     margin:0;
     
     
 }
@@ -65,12 +65,12 @@ align-content: center;
     font-family:'Moderat-Regular',sans-serif;
     font-size: 18px;
     position: fixed;
-    width: 15%;
-    height:100%;
-    padding-left:75px;
-        padding-right: 50px;
-    padding-top: 7%;
-    align-content: center;
+   height: 15%;
+    width:15%;
+    margin-left:5%;
+        margin-right:90%;
+    padding-top: 5%;
+align-content: center;
  
 }
 .top
@@ -88,14 +88,15 @@ align-content: center;
  
 }
 
+
 .color
 {
     background-color: #3f613b;
     position: absolute;
     width: 75%;
-    height: 900px;
+  height: 30%;
 margin-left: 25%;
-    z-index: 0;
+    z-index: -16;
 }
 .purple
 {
@@ -103,9 +104,9 @@ margin-left: 25%;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 1450px;;
-    height: 1420px;;
-    z-index: 0;
+ 
+      height: 20%;
+    z-index: -15;
 }
 .red
 {
@@ -113,8 +114,8 @@ margin-left: 25%;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 1830px;
-    z-index: 0;
+     height: 30%;
+    z-index: -14;
 }
 .yellow
 {
@@ -122,8 +123,8 @@ margin-left: 25%;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 730px;
-    z-index: 0;
+     height: 30%;
+    z-index: -13;
 }
     
     .blue
@@ -132,8 +133,8 @@ margin-left: 25%;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 883px;
-    z-index: 0;
+    height: 30%;
+    z-index: -12;
 
 }
     .brown
@@ -142,10 +143,11 @@ margin-left: 25%;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 1600px;
-    z-index: 0;
+    height: 23%;
+    z-index: -11;
 
 }
+
  a
 {
   color:inherit;
@@ -160,6 +162,7 @@ margin-left: 25%;
 .illo
 {
      max-width: 1000px;
+         padding-top: 50px;
 margin-left: 33%;
   position: relative;
     z-index: 1;
@@ -168,6 +171,7 @@ margin-left: 33%;
 
 .slideshow-container {
   max-width: 1000px;
+     padding-top: 50px;
     margin-left: 33%;
   position: relative;
     z-index: 1;
