@@ -89,7 +89,7 @@ align-content: center;
 {
     background-color: #3f613b;
     position: absolute;
-    width: 100%;
+    width: 75%;
   height: 5000px;
 margin-left: 25%;
     z-index: 1;
@@ -98,7 +98,7 @@ margin-left: 25%;
 {
     background-color: #dbd3dd;
     position: absolute;
-    width: 100%;
+    width: 75%;
     margin-left: 25%;
  
       height: 5000px;
@@ -108,7 +108,7 @@ margin-left: 25%;
 {
     background-color: #c03934;
     position: absolute;
-    width: 100%;
+    width: 75%;
     margin-left: 25%;
      height: 2000px;
     z-index: 3;
@@ -117,7 +117,7 @@ margin-left: 25%;
 {
     background-color: #f5d170;
     position: absolute;
-    width: 100%;
+    width: 75%;
     margin-left: 25%;
      height: 2000px;
     z-index: 4;
@@ -127,7 +127,7 @@ margin-left: 25%;
 {
     background-color: #abdfe3;
     position: absolute;
-    width: 100%;
+    width: 75%;
     margin-left: 25%;
     height: 2000px;
     z-index: 5;
@@ -137,7 +137,7 @@ margin-left: 25%;
 {
     background-color: #998c7f;
     position: absolute;
-    width: 100%;
+    width: 75%;
     margin-left: 25%;
     height: 1800px;
     z-index: 6;
