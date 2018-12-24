@@ -202,14 +202,14 @@ margin-left: 33%;
   border-radius: 0 3px 3px 0;
     z-index: 1;
 }
-
 /* Position the "next button" to the right */
 .next {
-  right: 9%;
-    padding-right:2%;
+  right: 0;
+    margin-right:100px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
