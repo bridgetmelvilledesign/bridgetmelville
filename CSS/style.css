@@ -177,14 +177,24 @@ margin-left: 33%;
          font-family: 'Moderat-Regular';
 }
 
+.slideshow-container {
+  max-width: 1000px;
+     padding-top: 50px;
+    padding-right: 100px;
+    margin-left: 33%;
+  position: relative;
+    z-index: 10;
+         font-family: 'Moderat-Regular';
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width:0%;
+  width:1%;
   margin-top: -22px;
-  padding: 16px;
+  padding: 18px;
   color: #94877a;
   font-weight: bold;
   font-size: 18px;
@@ -196,15 +206,17 @@ margin-left: 33%;
 /* Position the "next button" to the right */
 .next {
   right: 9%;
-  border-radius: 5px 0 0 5px;
+    padding-right:2%;
+  border-radius: 3px 0 0 3px;
     z-index: 1;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.7);
     z-index: 1;
 }
+
 
 
 .mySlides {
