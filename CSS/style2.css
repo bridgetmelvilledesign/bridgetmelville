@@ -13,3 +13,9 @@
 }
 
         
+html, body {
+margin:0;
+padding:0;
+    background-color:#f4e2c9;
+    z-index:0;
+}
