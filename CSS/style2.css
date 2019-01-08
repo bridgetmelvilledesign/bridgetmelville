@@ -2,12 +2,14 @@
 
 @media screen and (max-width: 600px) {
     /* For mobile phones: */
-    html, body {
+   .ok {
         background-color: #dbd3dd;}
 }
 
         
-html, body {
+.ok{
+    height:1000px;
+    width: 1000px;
 margin:0;
 padding:0;
     background-color:#1A1A66;
