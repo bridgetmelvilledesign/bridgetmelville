@@ -3,16 +3,18 @@
    
    .ok
         {
+                        font-size: 50px;
             #background-color: #145156;
         }
         
         
-          /* if mobile device max width 380px */
+          /* if mobile device max width 600px */
     @media only screen and (max-device-width: 600px) {
    
    .ok
         {
             #background-color: #145156;
+            font-size: 50px;
         }
   
   
@@ -22,6 +24,7 @@
     @media only screen and (max-device-width: 480px) {
         .ok
         {
+                        font-size: 50px;
             #background-color: #145156;
         }
  
@@ -29,5 +32,6 @@
 
 .ok
 {
+    font-size: 9px;
     background-color: #dbd3dd;
 }
