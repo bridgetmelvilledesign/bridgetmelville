@@ -2,14 +2,8 @@
 
 @media screen and (max-width: 600px) {
     /* For mobile phones: */
-    .color {
-      width: 100%;
-        margin:0;
-    }
-    .html{
+    html, body {
         background-color: #dbd3dd;}
-
-
 }
 
         
