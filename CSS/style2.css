@@ -1,17 +1,33 @@
-/* responsive */
+    /* if mobile device max width 380px */
+    @media only screen and (max-device-width: 380px) {
+   
+   .ok
+        {
+            #background-color: #145156;
+        }
+        
+        
+          /* if mobile device max width 380px */
+    @media only screen and (max-device-width: 600px) {
+   
+   .ok
+        {
+            #background-color: #145156;
+        }
+  
+  
+    } 
 
-@media screen and (max-width: 600px) {
-    /* For mobile phones: */
-   .ok {
-        background-color: #dbd3dd;}
+    /* if mobile device max width 480px */
+    @media only screen and (max-device-width: 480px) {
+        .ok
+        {
+            #background-color: #145156;
+        }
+ 
 }
 
-        
-.ok{
-    height:1000px;
-    width: 1000px;
-margin:0;
-padding:0;
-    background-color:#1A1A66;
-    z-index:0;
+.ok
+{
+    background-color: #dbd3dd;
 }
