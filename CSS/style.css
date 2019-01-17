@@ -274,7 +274,7 @@ margin-left: 33%;
         /* Position the "next button" to the right */
 .next {
   right: 0;
-    margin-right:80px;
+    margin-right:60px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
@@ -422,7 +422,7 @@ padding-right: 50px;
 /* Position the "next button" to the right */
 .next {
   right: 0;
-    margin-right:80px;
+    margin-right: 60px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
