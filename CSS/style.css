@@ -279,7 +279,7 @@ margin-left: 33%;
 }
           /* if mobile device max width 600px */
     @media only screen and (max-device-width: 600px) {
-        .text
+        .description
 {
     font-family:'Moderat-Regular',sans-serif; 
     font-size: 0px;
@@ -317,7 +317,7 @@ margin-left: 33%;
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
-                .text
+                .description
 {
     font-family:'Moderat-Regular',sans-serif; 
     font-size: 0px;
