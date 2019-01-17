@@ -306,7 +306,8 @@ margin-left: 33%;
      width: 1000px;
     height: 1000px;
      margin-left:0;
-       padding: 0px;
+       padding-right: 0px;
+    padding-bottom: 50px;
 }
     
           .text
@@ -392,7 +393,8 @@ max-width: 1050px;
  width: 1000px;
     height: 1000px;
     margin-left:0;
-    padding: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
 }
        
             .text
