@@ -320,9 +320,10 @@ width: 1000px;
             .text
 {
     padding-left: 50px;
+    margin: 0px;    
+align-content: initial;
 }
- 
-}
+        }
 
 
 
@@ -377,9 +378,10 @@ width: 1000px;
     .text
 {
     padding-left: 50px;
+    margin: 0px;
+    align-content: initial;
 }
 }
 
  
-}
 
