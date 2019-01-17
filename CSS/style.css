@@ -339,7 +339,7 @@ margin-left: 0%;
         .brownnotblue
          {width: 100%;
         margin: 0;
-        height: 1500px;}
+        height: 1000px;}
         .brown
          {width: 100%;
         margin: 0;}
@@ -367,8 +367,9 @@ max-width: 1050px;
 
 
     /* if mobile device max width 480px */
-    @media only screen and (max-device-width: 480px) {
-        .prev, .next {
+    @media only screen and (max-device-width: 480px)   {
+        /* Next & previous buttons */
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -382,7 +383,15 @@ max-width: 1050px;
   border-radius: 0 3px 3px 0;
     z-index: 1;
 }
-        .illo
+        /* Position the "next button" to the right */
+.next {
+  right: 0;
+    margin-right:50px;
+  border-radius: 3px 0 0 3px;
+    z-index: 1;
+}
+        
+              .illo
 {
      max-width: 1000px;
          padding-top: 50px;
@@ -392,7 +401,6 @@ margin-left: 0%;
     z-index: 10;
          font-family: 'Moderat-Regular';
 }
-       
             .text
 {
     padding-left: 50px;
@@ -401,7 +409,7 @@ margin-left: 0%;
     width: 80%;
     justify-content: flex-start;
 }
-                .description
+        .description
 {
     font-family:'Moderat-Regular',sans-serif; 
     font-size: 0px;
@@ -410,13 +418,12 @@ margin-left: 0%;
 }
 .myname
 {
-    font-size: 0px;    
-    width: 0px;
-    height: 0px;
+    font-size: 0px;
+         width: 0px;
+    height: 0px;;    
 }
                .purple
-{width: 100%;
-        margin: 0;}
+{width: 100%;}
         .color
         {width: 100%;
         margin: 0;}
@@ -428,35 +435,34 @@ margin-left: 0%;
         margin: 0;}
         .brownnotblue
          {width: 100%;
-             height: 1500px;
-margin: 0;}
+        margin: 0;
+        height: 1000px;}
         .brown
          {width: 100%;
-        margin: 0;
-      }
-.slideshow-container {
-max-width:1050px;
+        margin: 0;}
+         .top
+    {width:0px;
+        height:0px;}
+        .slideshow-container {
+max-width: 1050px;
+               align-content: center;
      padding-top: 50px;
-padding-right: 50px;
-    padding-left: 50px;
+    justify-content: center;
     margin-left: 0%;
+            padding-left:50px;
+            padding-right:50px;
   position: relative;
     z-index: 10;
          font-family: 'Moderat-Regular';
-        }
-    .top
+                .top
     {width:0px;
         height:0px;}
-        
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-    margin-right: 50px;
-  border-radius: 3px 0 0 3px;
-    z-index: 1;
-}
 
-}
+        }
+
+ 
+
+
 
  
 
