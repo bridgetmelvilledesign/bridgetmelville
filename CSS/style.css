@@ -29,7 +29,7 @@ position: auto;
 .text
 {
     font-family:'Moderat-Regular',sans-serif; 
-    font-size: 17px;
+    font-size: 18px;
     font-weight: normal;
     position: relative;
     height: 15%;
@@ -104,7 +104,7 @@ margin-left: 25%;
     width: 75%;
     margin-left: 25%;
  
-      height: 5000px;
+      height: 3000px;
     z-index: 2;
 }
 .red
@@ -113,7 +113,7 @@ margin-left: 25%;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-     height: 2000px;
+     height: 1500px;
     z-index: 3;
 }
 .yellow
@@ -126,13 +126,13 @@ margin-left: 25%;
     z-index: 4;
 }
     
-    .blue
+    .brownnotblue
 {
-    background-color: #abdfe3;
+    background-color:  #998c7f;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 2000px;
+    height: 1000px;
     z-index: 5;
 
 }
@@ -159,6 +159,17 @@ margin-left: 25%;
  }
 
 .illo
+{
+     max-width: 1000px;
+         padding-top: 50px;
+    padding-right: 100px;
+margin-left: 33%;
+  position: relative;
+    z-index: 10;
+         font-family: 'Moderat-Regular';
+}
+
+
 {
      max-width: 1000px;
          padding-top: 50px;
@@ -268,55 +279,10 @@ margin-left: 33%;
 }
 
 
-  /* if mobile device max width 380px */
-    @media only screen and (max-device-width: 380px) {
-        .purple
-{
-    background-color: #dbd3dd;
-    position: auto;
-    width: 100%;
-    margin: 0;
- 
-height: 5000px;
-    z-index: 2;
-}
-   
-}
-        
-        
-          /* if mobile device max width 600px */
-    @media only screen and (max-device-width: 600px) {
-                .purple
-{
-    background-color: #dbd3dd;
-    position: auto;
-    width: 100%;
-    margin: 0;
- 
-height: 5000px;
-    z-index: 2;
-}
-   
 
-  
-    } 
+     @media screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .about {
+      width: 100%;
+    }   
 
-
-
-    /* if mobile device max width 480px */
-    @media only screen and (max-device-width: 480px) {
-               .purple
-{
-    background-color: #dbd3dd;
-    position: auto;
-    width: 100%;
-    margin: 0;
- 
-height: 5000px;
-    z-index: 2;
-}
- 
-}
-
-
-        
