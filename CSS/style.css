@@ -286,7 +286,7 @@ margin-left: 0%;
     padding-left: 100px;
     padding-right: 20px;
     margin: 0px;
-    width: 50%;
+    width: 80%;
     justify-content: flex-start;
 }
         .description
@@ -328,6 +328,7 @@ max-width: 1000px;
      padding-top: 50px;
     justify-content: center;
     margin-left: 0%;
+             padding-left: 50px;
   position: relative;
     z-index: 10;
          font-family: 'Moderat-Regular';
@@ -358,7 +359,7 @@ margin-left: 0%;
     padding-left: 100px;
     padding-right: 20px;
     margin: 0px;
-    width: 50%;
+    width: 80%;
     justify-content: flex-start;
 }
                 .description
@@ -398,6 +399,7 @@ margin: 0;}
 max-width:1000px;
      padding-top: 50px;
  justify-content: center;
+    padding-left: 50px;
     margin-left: 0%;
   position: relative;
     z-index: 10;
