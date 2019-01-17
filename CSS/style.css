@@ -272,30 +272,6 @@ margin-left: 33%;
           /* if mobile device max width 600px */
     @media only screen and (max-device-width: 600px) {
         
-        /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width:auto;
-  margin-top: -22px;
-  padding: 16px;
-    padding-left: 50px;
-  color: #94877a;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-    z-index: 1;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-    margin-right: 100px;
-  border-radius: 3px 0 0 3px;
-    z-index: 1;
-}
               .illo
 {
      max-width: 1000px;
@@ -432,30 +408,6 @@ padding-right: 50px;
     z-index: 10;
          font-family: 'Moderat-Regular';
         }
-            /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width:auto;
-  margin-top: -22px;
-  padding: 16px;
-    padding-left: 50px;
-  color: #94877a;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-    z-index: 1;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-    margin-right: 100px;
-  border-radius: 3px 0 0 3px;
-    z-index: 1;
-}
     .top
     {width:0px;
         height:0px;}
