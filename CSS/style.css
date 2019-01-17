@@ -24,6 +24,11 @@ position: auto;
       font-weight: normal;
 }
 
+.mobile
+{
+    width: 0%;
+    height: 0%;
+}
 
 .text
 {
@@ -291,11 +296,15 @@ margin-left: 33%;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
-        
+                .mobile
+{
+    width: 100%;
+    height: auto;
+}
     .illo
 {
-     width: 1000px;
-    height: auto;
+     width: 0;
+    height: 0;
 }
     
           .text
@@ -378,8 +387,8 @@ max-width: 1050px;
 }
 .illo
 {
-     width: 1000px;
-    height: auto;
+ width: 0;
+    height: 0;
 }
        
             .text
@@ -436,6 +445,12 @@ padding-right: 50px;
     .top
     {width:0px;
         height:0px;}
+        
+        .mobile
+{
+    width: 100%;
+    height: auto;
+}
         
 /* Position the "next button" to the right */
 .next {
