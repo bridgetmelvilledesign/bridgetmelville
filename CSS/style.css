@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @bridgetmelvilledesign Sign out
+0
+0 0 bridgetmelvilledesign/bridgetmelville
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+bridgetmelville/CSS/style.css
+83ade15  5 minutes ago
+@bridgetmelvilledesign bridgetmelvilledesign Update style.css
+      
+469 lines (414 sloc)  85.4 KB
 
 html, body {
 margin:0;
@@ -339,7 +356,7 @@ margin-left: 0%;
         .brownnotblue
          {width: 100%;
         margin: 0;
-        height: 1000px;}
+        height: 800px;}
         .brown
          {width: 100%;
         margin: 0;}
@@ -436,7 +453,7 @@ margin-left: 0%;
         .brownnotblue
          {width: 100%;
         margin: 0;
-        height: 1000px;}
+        height: 800px;}
         .brown
          {width: 100%;
         margin: 0;}
@@ -459,10 +476,3 @@ max-width: 1050px;
         height:0px;}
 
         }
-
- 
-
-
-
- 
-
