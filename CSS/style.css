@@ -293,10 +293,15 @@ margin-left: 33%;
     z-index: 1;
 }
         
-              .illo
+.illo
 {
-   width:150%;
-  
+     width: 100%;
+         padding-top: 50px;
+    padding-right: 100px;
+margin-left:0;
+  position: relative;
+    z-index: 10;
+         font-family: 'Moderat-Regular';
 }
             .text
 {
@@ -376,9 +381,15 @@ max-width: 1050px;
   border-radius: 0 3px 3px 0;
     z-index: 1;
 }
-        .illo
+.illo
 {
-width:150%;
+     width: 100%;
+         padding-top: 50px;
+    padding-right: 100px;
+margin-left:0;
+  position: relative;
+    z-index: 10;
+         font-family: 'Moderat-Regular';
 }
        
             .text
