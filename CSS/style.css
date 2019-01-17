@@ -161,15 +161,9 @@ margin-left: 25%;
 
 .illo
 {
-     max-width: 1000px;
-         padding-top: 50px;
-    padding-right: 100px;
-margin-left: 33%;
-  position: relative;
-    z-index: 10;
-         font-family: 'Moderat-Regular';
+     width: 500px;
+    height: 500px;
 }
-
 
 .slideshow-container {
   max-width: 1000px;
@@ -383,13 +377,8 @@ max-width: 1050px;
 }
 .illo
 {
-     width: 100%;
-         padding-top: 50px;
-    padding-right: 100px;
-margin-left:0;
-  position: relative;
-    z-index: 10;
-         font-family: 'Moderat-Regular';
+     width: 500px;
+    height: 500px;
 }
        
             .text
