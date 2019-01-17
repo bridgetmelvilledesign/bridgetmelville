@@ -296,6 +296,7 @@ margin-left: 33%;
               .illo
 {
      max-width: 1000px;
+    width: 100%;
          padding-top: 50px;
     padding-right: 0px;
 margin-left: 0%;
@@ -386,6 +387,7 @@ max-width: 1050px;
      max-width: 1000px;
          padding-top: 50px;
     padding-right: 0px;
+    width: 100%;
 margin-left: 0%;
   position: relative;
     z-index: 10;
