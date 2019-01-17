@@ -283,7 +283,8 @@ margin-left: 0%;
 }
             .text
 {
-    padding-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0px;
     width: 90%;
     justify-content: flex-start;
@@ -323,7 +324,7 @@ margin-left: 0%;
     {width:0px;
         height:0px;}
         .slideshow-container {
-width: 100px;
+width: 1000px;
      padding-top: 50px;
     justify-content: center;
     margin-left: 0%;
@@ -356,6 +357,8 @@ margin-left: 0%;
     padding-left: 0px;
     margin: 0px;
     width: 90%;
+     padding-left: 20px;
+    padding-right: 20px;
     justify-content: flex-start;
 }
                 .description
@@ -392,7 +395,7 @@ margin: 0;}
         margin: 0;
       }
 .slideshow-container {
-width:1000x;
+width:1000px;
      padding-top: 50px;
  justify-content: center;
     margin-left: 0%;
