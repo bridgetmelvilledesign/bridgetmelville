@@ -37,7 +37,7 @@ position: auto;
     padding-left:33%;
         padding-right: 6%;
     padding-bottom: 50px;
-align-content: center;
+justify-content: center;
      margin:0;
     z-index: 10;
 }
@@ -317,11 +317,12 @@ width: 800px;
                 .top
     {width:0px;
         height:0px;}
-            .text
+    .text
 {
-    padding-left: 50px;
-    margin: 0px;    
-align-content: initial;
+    padding-left: 0px;
+    margin: 0px;
+    width: 100%;
+    justify-content: flex-start;
 }
         }
 
@@ -377,9 +378,10 @@ width:800px;
         height:0px;}
     .text
 {
-    padding-left: 50px;
+    padding-left: 0px;
     margin: 0px;
-    align-content: initial;
+    width: 100%;
+    justify-content: flex-start;
 }
 }
 
