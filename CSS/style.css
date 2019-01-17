@@ -283,10 +283,14 @@ margin-left: 33%;
 {
     font-family:'Moderat-Regular',sans-serif; 
     font-size: 0px;
+     width: 0px;
+    height: 0px;
 }
 .myname
 {
-    font-size: 0px;    
+    font-size: 0px;
+         width: 0px;
+    height: 0px;;    
 }
                .purple
 {width: 100%;}
@@ -313,8 +317,22 @@ margin-left: 33%;
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
+                .text
+{
+    font-family:'Moderat-Regular',sans-serif; 
+    font-size: 0px;
+     width: 0px;
+    height: 0px;
+}
+.myname
+{
+    font-size: 0px;    
+    width: 0px;
+    height: 0px;
+}
                .purple
-{width: 100%;}
+{width: 100%;
+        margin: 0;}
         .color
         {width: 100%;
         margin: 0;}
