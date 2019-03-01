@@ -301,7 +301,117 @@ margin-left: 33%;
   to {opacity: 1}
     z-index: 1;
 }
-          /* if mobile device max width 600px */
+    /* ipad*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+    {
+       .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: #94877a;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+    z-index: 1;
+}
+.illo
+{
+ width: 1000px;
+    height: 1000px;
+    margin-left:0;
+    padding-right: 0px;
+    padding-bottom: 250px;
+}
+       
+            .text
+{
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top:50px;
+    margin: 0px;
+    width: 80%;
+    justify-content: flex-start;
+}
+                    .text2
+{
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top:50px;
+    margin: 0px;
+    width: 80%;
+    justify-content: flex-start;
+}
+                .description
+{
+    font-family:'Moderat-Regular',sans-serif; 
+    font-size: 0px;
+     width: 0px;
+    height: 0px;
+}
+.myname
+{
+    font-size: 0px;    
+    width: 0px;
+    height: 0px;
+}
+               .purple
+{width: 100%;
+        margin: 0;}
+        .color
+        {width: 100%;
+        margin: 0;}
+        .red
+         {width: 100%;
+        margin: 0;}
+        .yellow
+          {width: 100%;
+        margin: 0;}
+        .brownnotblue
+         {width: 100%;
+             height: 1500px;
+margin: 0;}
+        .brown
+         {width: 100%;
+        margin: 0;
+      }
+.slideshow-container {
+max-width:1050px;
+     padding-top: 50px;
+padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 0%;
+  position: relative;
+    z-index: 10;
+         font-family: 'Moderat-Regular';
+        }
+    .top
+    {width:0px;
+        height:0px;}
+        
+        .mobile
+{
+    width: 100%;
+    height: auto;
+}
+        
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+    margin-right: 50px;
+  border-radius: 3px 0 0 3px;
+    z-index: 1;
+}
+
+}
+
+
+/* if mobile device max width 600px */
     @media only screen and (max-device-width: 600px) {
         /* Next & previous buttons */
 .prev, .next {
