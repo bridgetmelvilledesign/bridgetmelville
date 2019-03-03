@@ -851,7 +851,7 @@ and (max-device-width : 1024px)
   color: black;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 98.15%;
   border: none;
   text-align: left;
   outline: none;
@@ -905,7 +905,7 @@ and (max-device-width : 1024px)
 	    }
 	    .peachmobile
 	    {
-		    height: 10%;
+		    height: 150px;
 		    width = 98.15%;
 		    position: absolute;
 	  background-color: #f4e2c9;
