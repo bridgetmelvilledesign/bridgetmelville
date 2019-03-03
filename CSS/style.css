@@ -455,12 +455,7 @@ padding-right: 50px;
     .top
     {width:0px;
         height:0px;}
-        
-        .mobile
-{
-    width: 100%;
-    height: auto;
-}
+       
         
 /* Position the "next button" to the right */
 .next {
@@ -475,7 +470,7 @@ padding-right: 50px;
   color: black;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 96.15%;
   border: none;
   text-align: left;
   outline: none;
@@ -513,11 +508,26 @@ padding-right: 50px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 100%;
+    width: 96.15%;
      position: fixed;
        display:block;
         z-index: 20;
     padding-left: 18px;
+	   html{
+            background-color: white;
+            z-index: 0;
+        }
+	    .peach
+	    {
+		    display:none;
+	    }
+	    .peachmobile
+	    {
+		    height: 100px;
+		    width :96.15%;
+		    position: absolute;
+	  background-color: #f4e2c9;
+	z-index: 6;}
             }
 
 }
@@ -635,7 +645,7 @@ max-width: 1050px;
   color: black;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 96.15%;
   border: none;
   text-align: left;
   outline: none;
@@ -673,12 +683,27 @@ max-width: 1050px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 100%;
+    width: 86.15%;
      position: fixed;
        display:block;
         z-index: 20;
     padding-left: 18px;
             }
+		   html{
+            background-color: white;
+            z-index: 0;
+        }
+	    .peach
+	    {
+		    display:none;
+	    }
+	    .peachmobile
+	    {
+		    height: 100px;
+		    width :96.15%;
+		    position: absolute;
+	  background-color: #f4e2c9;
+	z-index: 6;}
 
         }
 
@@ -692,7 +717,7 @@ max-width: 1050px;
   color: black;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 96.15%;
   border: none;
   text-align: left;
   outline: none;
@@ -730,12 +755,27 @@ max-width: 1050px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 100%;
+    width: 96.15%;
      position: fixed;
        display:block;
         z-index: 20;
     padding-left: 18px;
             }
+	       html{
+            background-color: white;
+            z-index: 0;
+        }
+	    .peach
+	    {
+		    display:none;
+	    }
+	    .peachmobile
+	    {
+		    height: 100px;
+		    width :96.15%;
+		    position: absolute;
+	  background-color: #f4e2c9;
+	z-index: 6;}
         .prev, .next {
   cursor: pointer;
   position: absolute;
