@@ -839,7 +839,7 @@ and (max-device-width : 1024px)
     {
      .description
 	    {
-		    background-color: white;
+		  display: none;
 	    }
      .collapsible {
   background-color: #f4e2c9;
