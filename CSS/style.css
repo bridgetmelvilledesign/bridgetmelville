@@ -9,6 +9,22 @@ position: auto;
 
     #wrapper {position: absolute; width: 100%; overflow-x: hidden}
 
+.collapsible {
+  display: none;
+    opacity: 0%;
+}
+
+.collapsible:after {
+display: none;
+}
+
+.active:after {
+display: none;
+}
+
+.content {
+display: none;
+}
 
 @font-face {
 
