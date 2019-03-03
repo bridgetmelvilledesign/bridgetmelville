@@ -144,10 +144,11 @@ align-content: center;
     width:15%;
     padding-left:5%;
         padding-right:90%;
-	margin-right: 10%;
     padding-top: 7%;
 align-content: center;
        background-color: #f4e2c9;
+	z-index: -7;
+}
  
 .top
 {
