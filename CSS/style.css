@@ -702,7 +702,7 @@ background-color: #f4e2c9;
       padding-top:10px;
     font-size: 25px;
     display: block;
-        overflow:hidden;
+
     
 }
 .about
@@ -719,7 +719,6 @@ background-color: #f4e2c9;
         font-size: 25px;
     padding-right: 5%;
     display:block;
-        overflow:hidden;
 }
         .prev, .next {
   cursor: pointer;
