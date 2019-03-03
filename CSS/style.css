@@ -905,6 +905,14 @@ and (max-device-width : 1024px)
             background-color: white;
             z-index: 0;
         }
+	        .smallpeach
+        {
+            height: 150px;
+            display:block;
+            z-index: 12;
+            color: aqua;
+            width: 100%;
+        }
 	    .peach
 	    {
 		  display:none;
