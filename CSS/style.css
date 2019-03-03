@@ -899,5 +899,9 @@ and (max-device-width : 1024px)
             background-color: white;
             z-index: 0;
         }
+	    .peach
+	    {
+		    display:none;
+	    }
 
 }
