@@ -1,6 +1,4 @@
-html, body {
-margin:0;
-padding:0;
+html,{
     background-color:#f4e2c9;
     z-index:0;
 position: auto;
@@ -875,6 +873,9 @@ and (max-device-width : 1024px)
   content: "Close";;
        display:block;
         z-index: 20;
+	 position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
     
 }
 
