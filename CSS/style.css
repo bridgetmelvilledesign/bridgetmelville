@@ -903,5 +903,12 @@ and (max-device-width : 1024px)
 	    {
 		    display:none;
 	    }
+	    .peachmobile
+	    {
+		    height: 10%;
+		    width = 98.15%;
+		    position: absolute;
+	  background-color: #f4e2c9;
+	z-index: 0;}
 
 }
