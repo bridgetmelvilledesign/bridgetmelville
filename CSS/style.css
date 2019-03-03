@@ -832,12 +832,15 @@ padding-right: 50px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
-            /* ipad*/
+                       /* ipad*/
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  
     {
-     
+     .description
+	    {
+		    background-color: white;
+	    }
      .collapsible {
   background-color: #f4e2c9;
   color: black;
@@ -848,9 +851,8 @@ and (max-device-width : 1024px)
   text-align: left;
   outline: none;
   font-size: 20px;
- position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+ position: sticky;
+    top: 0;
          display:block;
           z-index: 20;
 }
@@ -861,9 +863,8 @@ and (max-device-width : 1024px)
   font-weight: normal;
   float: right;
   margin-left: 5px;
-   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+    top: 0;
        display:block;
         z-index: 20;
    
@@ -873,9 +874,8 @@ and (max-device-width : 1024px)
   content: "Close";;
        display:block;
         z-index: 20;
-	 position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+ position: sticky;
+    top: 0;
     
 }
 
@@ -890,5 +890,9 @@ and (max-device-width : 1024px)
         z-index: 20;
     padding-left: 18px;
             }
+        html{
+            background-color: white;
+            z-index: 0;
+        }
 
 }
