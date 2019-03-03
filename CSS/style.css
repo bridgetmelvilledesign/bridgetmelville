@@ -534,6 +534,55 @@ max-width: 1050px;
                 .top
     {width:0px;
         height:0px;}
+                 .collapsible {
+  background-color: #f4e2c9;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+ position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+         display:block;
+          z-index: 20;
+}
+
+.collapsible:after {
+  content: 'About';
+  color: black;
+  font-weight: normal;
+  float: right;
+  margin-left: 5px;
+   position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+       display:block;
+        z-index: 20;
+   
+}
+
+.after:after {
+  content: "Close";;
+       display:block;
+        z-index: 20;
+    
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f4e2c9;
+    width: 100%;
+     position: fixed;
+       display:block;
+        z-index: 20;
+    padding-left: 18px;
+            }
 
         }
 
@@ -542,6 +591,55 @@ max-width: 1050px;
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
+             .collapsible {
+  background-color: #f4e2c9;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+ position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+         display:block;
+          z-index: 20;
+}
+
+.collapsible:after {
+  content: 'About';
+  color: black;
+  font-weight: normal;
+  float: right;
+  margin-left: 5px;
+   position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+       display:block;
+        z-index: 20;
+   
+}
+
+.after:after {
+  content: "Close";;
+       display:block;
+        z-index: 20;
+    
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f4e2c9;
+    width: 100%;
+     position: fixed;
+       display:block;
+        z-index: 20;
+    padding-left: 18px;
+            }
         .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -643,5 +741,60 @@ padding-right: 50px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
+            /* ipad*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+    {
+     
+     .collapsible {
+  background-color: #f4e2c9;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+ position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+         display:block;
+          z-index: 20;
+}
+
+.collapsible:after {
+  content: 'About';
+  color: black;
+  font-weight: normal;
+  float: right;
+  margin-left: 5px;
+   position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+       display:block;
+        z-index: 20;
+   
+}
+
+.after:after {
+  content: "Close";;
+       display:block;
+        z-index: 20;
+    
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f4e2c9;
+    width: 100%;
+     position: fixed;
+       display:block;
+        z-index: 20;
+    padding-left: 18px;
+            }
 
 }
