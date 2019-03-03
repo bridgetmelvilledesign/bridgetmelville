@@ -51,31 +51,12 @@ table {
 
 .smallpeach
 {
-    width:50%;
-    position: fixed;
-    height: 50px;
-background-color: #f4e2c9;
-    z-index:20;
-    float:left; 
-    color: black;
-    padding-left: 5%;
-      padding-top:10px;
-    font-size: 25px;
+ display:none;
     
 }
 .about
 {
-   float:right;
-    width:50%;
-    margin-left: 50%;
-       height: 50px;
-    background-color: #f4e2c9;
-        z-index:25;
-    padding-left:40%;
-        position: fixed;
-    padding-top:10px;
-        font-size: 25px;
-    padding-right: 5%;
+display: none;
 }
 @font-face {
 
@@ -505,6 +486,37 @@ padding-right: 50px;
 
 /* if mobile device max width 600px */
     @media only screen and (max-device-width: 600px) {
+	        .smallpeach
+{
+    width:50%;
+    position: fixed;
+    height: 50px;
+background-color: #f4e2c9;
+    z-index:20;
+    float:left; 
+    color: black;
+    padding-left: 5%;
+      padding-top:10px;
+    font-size: 25px;
+    display: auto;
+}
+.about
+{
+   float:right;
+	display: auto;
+    width:50%;
+    margin-left: 50%;
+       height: 50px;
+    background-color: #f4e2c9;
+        z-index:25;
+    padding-left:40%;
+        position: fixed;
+    padding-top:10px;
+        font-size: 25px;
+    padding-right: 5%;
+}
+
+
         /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -615,22 +627,38 @@ max-width: 1050px;
 
     /* if mobile device max width 480px */
     @media only screen and (max-device-width: 480px) {
-             .collapsible {
-  background-color: #f4e2c9;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
- position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-         display:flex;
-          z-index: 20;
+           
+    .smallpeach
+{
+    width:50%;
+    position: fixed;
+    height: 50px;
+background-color: #f4e2c9;
+    z-index:20;
+    float:left; 
+    color: black;
+    padding-left: 5%;
+      padding-top:10px;
+    font-size: 25px;
+    display: auto;
 }
+.about
+{
+   float:right;
+	display: auto;
+    width:50%;
+    margin-left: 50%;
+       height: 50px;
+    background-color: #f4e2c9;
+        z-index:25;
+    padding-left:40%;
+        position: fixed;
+    padding-top:10px;
+        font-size: 25px;
+    padding-right: 5%;
+}
+
+
         .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -741,4 +769,33 @@ and (max-device-width : 1024px)
 	    {
 		  display: none;
 	    }
+	    .smallpeach
+{
+    width:50%;
+    position: fixed;
+    height: 50px;
+background-color: #f4e2c9;
+    z-index:20;
+    float:left; 
+    color: black;
+    padding-left: 5%;
+      padding-top:10px;
+    font-size: 25px;
+    display: auto;
+}
+.about
+{
+   float:right;
+	display: auto;
+    width:50%;
+    margin-left: 50%;
+       height: 50px;
+    background-color: #f4e2c9;
+        z-index:25;
+    padding-left:40%;
+        position: fixed;
+    padding-top:10px;
+        font-size: 25px;
+    padding-right: 5%;
+}
 
