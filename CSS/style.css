@@ -628,9 +628,8 @@ max-width: 1050px;
   position: relative;
     z-index: 10;
          font-family: 'Moderat-Regular';
-                .top
-    {width:0px;
-        height:0px;}
+        }
+  
                  .collapsible {
   background-color: #f4e2c9;
   color: black;
@@ -902,5 +901,5 @@ and (max-device-width : 1024px)
         }
 	    .peach
 	    {
-		    display:none;
+		  display:none;
 	    }
