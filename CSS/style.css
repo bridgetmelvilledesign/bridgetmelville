@@ -543,8 +543,9 @@ padding-right: 50px;
 }
 
 
-/* if mobile device max width 600px */
-    @media only screen and (max-device-width: 600px) {
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
         /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -668,7 +669,7 @@ background-color: #f4e2c9;
 .about
 {
    float:right;
-    width:50%;
+    width:88px;
     margin-left: 50%;
        height: 50px;
     background-color: #f4e2c9;
@@ -677,7 +678,7 @@ background-color: #f4e2c9;
         position: fixed;
     padding-top:10px;
         font-size: 25px;
-    padding-right: 5%;
+    margin-right: 5%;
     display:block;
     overflow:hidden;
 }
@@ -688,7 +689,9 @@ background-color: #f4e2c9;
 
 
     /* if mobile device max width 480px */
-    @media only screen and (max-device-width: 480px) {
+    @media only screen and (max-device-width: 480px) 
+    {
+    
   .smallpeach
 {
     width:50%;
@@ -702,7 +705,7 @@ background-color: #f4e2c9;
       padding-top:10px;
     font-size: 25px;
     display: block;
-
+        overflow:hidden;
     
 }
 .about
@@ -719,6 +722,7 @@ background-color: #f4e2c9;
         font-size: 25px;
     padding-right: 5%;
     display:block;
+        overflow:hidden;
 }
         .prev, .next {
   cursor: pointer;
@@ -826,7 +830,7 @@ padding-right: 50px;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  
     {
-	      .smallpeach
+          .smallpeach
 {
     width:50%;
     position: fixed;
@@ -959,4 +963,4 @@ padding-right: 50px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
-	    }
+        }
