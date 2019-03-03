@@ -49,15 +49,33 @@ table {
 
     #wrapper {position: absolute; width: 100%; overflow-x: hidden}
 
+.collapsible {
+  display: none;
+}
+
+.collapsible:after {
+display: none;
+}
+
+.after:after {
+display: none;
+}
+
+.content {
+display: none;
+}
+
 .smallpeach
 {
- display:none;
+display:none;
     
 }
 .about
 {
-display: none;
+  display:none;
 }
+}
+
 @font-face {
 
     font-family: 'Moderat-Regular';
@@ -477,46 +495,56 @@ padding-right: 50px;
  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-         display:flex;
+         display:block;
           z-index: 20;
 }
+
+.collapsible:after {
+  content: 'About';
+  color: black;
+  font-weight: normal;
+  float: right;
+  margin-left: 5px;
+   position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+       display:block;
+        z-index: 20;
+   
+}
+
+.after:after {
+  content: "Close";;
+       display:block;
+        z-index: 20;
+    
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f4e2c9;
+    width: 96.15%;
+     position: fixed;
+       display:block;
+        z-index: 20;
+    padding-left: 18px;
+            }
+            .smallpeach
+        {
+            height: 150px;
+            position: absolute;
+            z-index: 12;
+            color: aqua;
+            width: 100%;
+        }
 
 }
 
 
 /* if mobile device max width 600px */
     @media only screen and (max-device-width: 600px) {
-	        .smallpeach
-{
-    width:50%;
-    position: fixed;
-    height: 50px;
-background-color: #f4e2c9;
-    z-index:20;
-    float:left; 
-    color: black;
-    padding-left: 5%;
-      padding-top:10px;
-    font-size: 25px;
-    display: auto;
-}
-.about
-{
-   float:right;
-	display: auto;
-    width:50%;
-    margin-left: 50%;
-       height: 50px;
-    background-color: #f4e2c9;
-        z-index:25;
-    padding-left:40%;
-        position: fixed;
-    padding-top:10px;
-        font-size: 25px;
-    padding-right: 5%;
-}
-
-
         /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -620,15 +648,7 @@ max-width: 1050px;
     z-index: 10;
          font-family: 'Moderat-Regular';
         }
-
-
-
-
-
-    /* if mobile device max width 480px */
-    @media only screen and (max-device-width: 480px) {
-           
-    .smallpeach
+  .smallpeach
 {
     width:50%;
     position: fixed;
@@ -640,12 +660,14 @@ background-color: #f4e2c9;
     padding-left: 5%;
       padding-top:10px;
     font-size: 25px;
-    display: auto;
+    display: block;
+      overflow:hidden;
+    
+    
 }
 .about
 {
    float:right;
-	display: auto;
     width:50%;
     margin-left: 50%;
        height: 50px;
@@ -656,9 +678,49 @@ background-color: #f4e2c9;
     padding-top:10px;
         font-size: 25px;
     padding-right: 5%;
+    display:block;
+    overflow:hidden;
 }
 
+        }
 
+
+
+
+    /* if mobile device max width 480px */
+    @media only screen and (max-device-width: 480px) {
+  .smallpeach
+{
+    width:50%;
+    position: fixed;
+    height: 50px;
+background-color: #f4e2c9;
+    z-index:20;
+    float:left; 
+    color: black;
+    padding-left: 5%;
+      padding-top:10px;
+    font-size: 25px;
+    display: block;
+        overflow:hidden;
+    
+}
+.about
+{
+   float:right;
+    width:45%;
+    margin-left: 50%;
+       height: 50px;
+    background-color: #f4e2c9;
+        z-index:25;
+    padding-left:40%;
+        position: fixed;
+    padding-top:10px;
+        font-size: 25px;
+    padding-right: 5%;
+    display:block;
+        overflow:hidden;
+}
         .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -765,11 +827,7 @@ padding-right: 50px;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  
     {
-     .description
-	    {
-		  display: none;
-	    }
-	    .smallpeach
+        .smallpeach
 {
     width:50%;
     position: fixed;
@@ -781,12 +839,13 @@ background-color: #f4e2c9;
     padding-left: 5%;
       padding-top:10px;
     font-size: 25px;
-    display: auto;
+    display: block;
+    overflow:hidden;
+    
 }
 .about
 {
    float:right;
-	display: auto;
     width:50%;
     margin-left: 50%;
        height: 50px;
@@ -797,5 +856,20 @@ background-color: #f4e2c9;
     padding-top:10px;
         font-size: 25px;
     padding-right: 5%;
+    display:block;
+        overflow:hidden;
 }
+     .description
+	    {
+		  display: none;
+	    }
 
+        html{
+            background-color: white;
+            z-index: 0;
+        }
+	    .peach
+	    {
+            display:none;
+        }
+        }
