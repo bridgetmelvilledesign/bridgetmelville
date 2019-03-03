@@ -905,7 +905,8 @@ and (max-device-width : 1024px)
 	    }
 	    .peachmobile
 	    {
-		    height: 150px;
+		    height: 100px;
+		    top: 0;
 		    width = 98.15%;
 		    position: absolute;
 	  background-color: #f4e2c9;
