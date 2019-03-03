@@ -484,7 +484,7 @@ padding-right: 50px;
  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-         display:block;
+         display:flex;
           z-index: 20;
 }
 
@@ -497,14 +497,14 @@ padding-right: 50px;
    position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-       display:block;
+       display:flex;
         z-index: 20;
    
 }
 
 .after:after {
   content: "Close";;
-       display:block;
+       display:flex;
         z-index: 20;
     
 }
@@ -516,7 +516,7 @@ padding-right: 50px;
   background-color: #f4e2c9;
     width: 96.15%;
      position: fixed;
-       display:block;
+       display:flex;
         z-index: 20;
     padding-left: 18px;
             }
@@ -702,7 +702,7 @@ max-width: 1050px;
  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-         display:block;
+         display:flex;
           z-index: 20;
 }
 
@@ -715,14 +715,14 @@ max-width: 1050px;
    position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-       display:block;
+       display:flex;
         z-index: 20;
    
 }
 
 .after:after {
   content: "Close";;
-       display:block;
+       display:flex;
         z-index: 20;
     
 }
@@ -734,7 +734,7 @@ max-width: 1050px;
   background-color: #f4e2c9;
     width: 96.2%;
      position: fixed;
-       display:block;
+       display:flex;
         z-index: 20;
 	   padding-left: 18px;
 	padding-top:10px;
@@ -862,7 +862,7 @@ and (max-device-width : 1024px)
   font-size: 20px;
  position: sticky;
     top: 0;
-         display:block;
+         display:flex;
           z-index: 20;
 }
 
@@ -874,14 +874,14 @@ and (max-device-width : 1024px)
   margin-left: 5px;
   position: sticky;
     top: 0;
-       display:block;
+       display:flex;
         z-index: 20;
    
 }
 
 .after:after {
   content: "Close";;
-       display:block;
+       display:flex;
         z-index: 20;
  position: sticky;
     top: 0;
@@ -895,7 +895,7 @@ and (max-device-width : 1024px)
   background-color: #f4e2c9;
     width: 96.2%;
      position: fixed;
-       display:block;
+       display:flex;
         z-index: 20;
     padding-left: 18px;
 	padding-top:10px;
