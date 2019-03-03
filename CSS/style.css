@@ -884,7 +884,7 @@ and (max-device-width : 1024px)
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 100%;
+    width: 98.15%;
      position: fixed;
        display:block;
         z-index: 20;
