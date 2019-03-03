@@ -889,7 +889,7 @@ and (max-device-width : 1024px)
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 98.15%;
+    width: 96.15%;
      position: fixed;
        display:block;
         z-index: 20;
@@ -906,10 +906,9 @@ and (max-device-width : 1024px)
 	    .peachmobile
 	    {
 		    height: 100px;
-		    top: 0;
-		    width = 98.15%;
+		    width = 96.15%;
 		    position: absolute;
 	  background-color: #f4e2c9;
-	z-index: 0;}
+	z-index: 6;}
 
 }
