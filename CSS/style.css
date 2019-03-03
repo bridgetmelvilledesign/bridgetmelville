@@ -488,39 +488,6 @@ padding-right: 50px;
           z-index: 20;
 }
 
-.collapsible:after {
-  content: 'About';
-  color: black;
-  font-weight: normal;
-  float: right;
-  margin-left: 5px;
-   position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-       display:flex;
-        z-index: 20;
-   
-}
-
-.after:after {
-  content: "Close";;
-       display:flex;
-        z-index: 20;
-    
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f4e2c9;
-    width: 96.15%;
-     position: fixed;
-       display:flex;
-        z-index: 20;
-    padding-left: 18px;
-            }
-
 }
 
 
@@ -629,60 +596,7 @@ max-width: 1050px;
     z-index: 10;
          font-family: 'Moderat-Regular';
         }
-  
-                 .collapsible {
-  background-color: #f4e2c9;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
- position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-         display:block;
-          z-index: 20;
-}
 
-.collapsible:after {
-  content: 'About';
-  color: black;
-  font-weight: normal;
-  float: right;
-  margin-left: 5px;
-   position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-       display:block;
-        z-index: 20;
-   
-}
-
-.after:after {
-  content: "Close";;
-       display:block;
-        z-index: 20;
-    
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f4e2c9;
-    width: 96.2%;
-     position: fixed;
-       display:block;
-        z-index: 20;
-    padding-left: 18px;
-	padding-top: 10px;
-	z-index: 2;
-            }
-
-        }
 
 
 
@@ -705,41 +619,6 @@ max-width: 1050px;
          display:flex;
           z-index: 20;
 }
-
-.collapsible:after {
-  content: 'About';
-  color: black;
-  font-weight: normal;
-  float: right;
-  margin-left: 5px;
-   position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-       display:flex;
-        z-index: 20;
-   
-}
-
-.after:after {
-  content: "Close";;
-       display:flex;
-        z-index: 20;
-    
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f4e2c9;
-    width: 96.2%;
-     position: fixed;
-       display:flex;
-        z-index: 20;
-	   padding-left: 18px;
-	padding-top:10px;
-	z-index: 2;
-            }
         .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -850,70 +729,4 @@ and (max-device-width : 1024px)
 	    {
 		  display: none;
 	    }
-     .collapsible {
-  background-color: #f4e2c9;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
- position: sticky;
-    top: 0;
-         display:flex;
-          z-index: 20;
-}
 
-.collapsible:after {
-  content: 'About';
-  color: black;
-  font-weight: normal;
-  float: right;
-  margin-left: 5px;
-  position: sticky;
-    top: 0;
-       display:flex;
-        z-index: 20;
-   
-}
-
-.after:after {
-  content: "Close";;
-       display:flex;
-        z-index: 20;
- position: sticky;
-    top: 0;
-    
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f4e2c9;
-    width: 96.2%;
-     position: fixed;
-       display:flex;
-        z-index: 20;
-    padding-left: 18px;
-	padding-top:10px;
-	z-index: 2;
-            }
-        html{
-            background-color: white;
-            z-index: 0;
-        }
-	        .smallpeach
-        {
-            height: 150px;
-            display:block;
-            z-index: 12;
-            color: aqua;
-            width: 100%;
-        }
-	    .peach
-	    {
-		  display:none;
-	    }
