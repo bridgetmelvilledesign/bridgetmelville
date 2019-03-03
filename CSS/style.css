@@ -673,11 +673,13 @@ max-width: 1050px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 96.15%;
+    width: 96.2%;
      position: fixed;
        display:block;
         z-index: 20;
     padding-left: 18px;
+	padding-top: 19px;
+	z-index: 2;
             }
 
         }
@@ -730,11 +732,13 @@ max-width: 1050px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 100%;
+    width: 96.2%;
      position: fixed;
        display:block;
         z-index: 20;
-    padding-left: 18px;
+	   padding-left: 18px;
+	padding-top:10px;
+	z-index: 2;
             }
         .prev, .next {
   cursor: pointer;
@@ -889,11 +893,13 @@ and (max-device-width : 1024px)
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f4e2c9;
-    width: 96.15%;
+    width: 96.2%;
      position: fixed;
        display:block;
         z-index: 20;
     padding-left: 18px;
+	padding-top:10px;
+	z-index: 2;
             }
         html{
             background-color: white;
