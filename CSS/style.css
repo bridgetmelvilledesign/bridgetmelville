@@ -543,9 +543,8 @@ padding-right: 50px;
 }
 
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+/* if mobile device max width 600px */
+    @media only screen and (max-device-width: 600px) {
         /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -669,7 +668,7 @@ background-color: #f4e2c9;
 .about
 {
    float:right;
-    width:88px;
+    width:50%;
     margin-left: 50%;
        height: 50px;
     background-color: #f4e2c9;
@@ -678,7 +677,7 @@ background-color: #f4e2c9;
         position: fixed;
     padding-top:10px;
         font-size: 25px;
-    margin-right: 5%;
+    padding-right: 5%;
     display:block;
     overflow:hidden;
 }
@@ -688,10 +687,9 @@ background-color: #f4e2c9;
 
 
 
-    /* if mobile device max width 480px */
-    @media only screen and (max-device-width: 480px) 
-    {
-    
+   @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)   {
   .smallpeach
 {
     width:50%;
@@ -705,7 +703,7 @@ background-color: #f4e2c9;
       padding-top:10px;
     font-size: 25px;
     display: block;
-        overflow:hidden;
+
     
 }
 .about
@@ -722,7 +720,6 @@ background-color: #f4e2c9;
         font-size: 25px;
     padding-right: 5%;
     display:block;
-        overflow:hidden;
 }
         .prev, .next {
   cursor: pointer;
@@ -825,142 +822,4 @@ padding-right: 50px;
   border-radius: 3px 0 0 3px;
     z-index: 1;
 }
-                       /* ipad*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  
-    {
-          .smallpeach
-{
-    width:50%;
-    position: fixed;
-    height: 50px;
-background-color: #f4e2c9;
-    z-index:20;
-    float:left; 
-    color: black;
-    padding-left: 5%;
-      padding-top:10px;
-    font-size: 25px;
-    display: block;
-        overflow:hidden;
-    
-}
-.about
-{
-   float:right;
-    width:45%;
-    margin-left: 50%;
-       height: 50px;
-    background-color: #f4e2c9;
-        z-index:25;
-    padding-left:40%;
-        position: fixed;
-    padding-top:10px;
-        font-size: 25px;
-    padding-right: 5%;
-    display:block;
-        overflow:hidden;
-}
-        .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width:auto;
-  margin-top: -22px;
-  padding: 10px;
-  color: #94877a;
-  font-weight: bold;
-  font-size: 24px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-    z-index: 1;
-}
-.illo
-{
- width: 1000px;
-    height: 1000px;
-    margin-left:0;
-    padding-right: 0px;
-    padding-bottom: 250px;
-}
-       
-            .text
-{
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-top:50px;
-    margin: 0px;
-    width: 80%;
-    justify-content: flex-start;
-}
-                    .text2
-{
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-top:50px;
-    margin: 0px;
-    width: 80%;
-    justify-content: flex-start;
-}
-                .description
-{
-    font-family:'Moderat-Regular',sans-serif; 
-    font-size: 0px;
-     width: 0px;
-    height: 0px;
-}
-.myname
-{
-    font-size: 0px;    
-    width: 0px;
-    height: 0px;
-}
-               .purple
-{width: 100%;
-        margin: 0;}
-        .color
-        {width: 100%;
-        margin: 0;}
-        .red
-         {width: 100%;
-        margin: 0;}
-        .yellow
-          {width: 100%;
-        margin: 0;}
-        .brownnotblue
-         {width: 100%;
-             height: 1500px;
-margin: 0;}
-        .brown
-         {width: 100%;
-        margin: 0;
-      }
-.slideshow-container {
-max-width:1050px;
-     padding-top: 50px;
-padding-right: 50px;
-    padding-left: 50px;
-    margin-left: 0%;
-  position: relative;
-    z-index: 10;
-         font-family: 'Moderat-Regular';
-        }
-    .top
-    {width:0px;
-        height:0px;}
-        
-        .mobile
-{
-    width: 100%;
-    height: auto;
-}
-        
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-    margin-right: 50px;
-  border-radius: 3px 0 0 3px;
-    z-index: 1;
-}
-        }
+                
