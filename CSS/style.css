@@ -711,7 +711,7 @@ background-color: #f4e2c9;
 .about
 {
    float:right;
-    width:45%;
+    width:88px;
     margin-left: 50%;
        height: 50px;
     background-color: #f4e2c9;
@@ -720,7 +720,7 @@ background-color: #f4e2c9;
         position: fixed;
     padding-top:10px;
         font-size: 25px;
-    padding-right: 5%;
+    margin-right: 5%;
     display:block;
         overflow:hidden;
 }
