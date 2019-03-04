@@ -49,22 +49,6 @@ table {
 
     #wrapper {position: absolute; width: 100%; overflow-x: hidden}
 
-.collapsible {
-  display: none;
-}
-
-.collapsible:after {
-display: none;
-}
-
-.after:after {
-display: none;
-}
-
-.content {
-display: none;
-}
-
 .smallpeach
 {
 display:none;
@@ -94,7 +78,7 @@ display:none;
 {
 	width:100%;
       position: absolute;
-	height: 4890px;
+	height: 5000px;
 	  background-color: #f4e2c9;
 	z-index: 0;}
 .mobile
