@@ -78,7 +78,7 @@ display:none;
 {
 	width:100%;
       position: absolute;
-	height: 5200px;
+	height: 5800px;
 	  background-color: #f4e2c9;
 	z-index: 0;}
 .mobile
@@ -169,7 +169,7 @@ align-content: center;
 
 .color
 {
-    background-color: #3f613b;
+    background-color: #466b41;
     position: absolute;
     width: 75%;
   height: 4000px;
@@ -186,6 +186,16 @@ margin-left: 25%;
       height: 3000px;
     z-index: 2;
 }
+ .white
+{
+    background-color: #ffffff;
+    position: absolute;
+    width: 75%;
+    margin-left: 25%;
+ 
+      height: 800px;
+    z-index: 10;
+}
 .red
 {
     background-color: #c03934;
@@ -199,24 +209,15 @@ margin-left: 25%;
     
     .brownnotblue
 {
-    background-color:  #998c7f;
-    position: absolute;
-    width: 75%;
-    margin-left: 25%;
-    height: 1000px;
-    z-index: 5;
-
-}
-    .brown
-{
     background-color: #998c7f;
     position: absolute;
     width: 75%;
     margin-left: 25%;
-    height: 1800px;
-    z-index: 6;
+    height: 935px;
+    z-index: 5;
 
 }
+
     .yellow
 {
     background-color: #febd23;
@@ -438,6 +439,7 @@ margin: 0;}
          {width: 100%;
         margin: 0;
       }
+        
 .slideshow-container {
 max-width:1050px;
      padding-top: 50px;
@@ -782,6 +784,11 @@ margin: 0;}
          {width: 100%;
         margin: 0;
       }
+        .pink
+        {
+             {width: 100%;
+        margin: 0;}
+        }
 .slideshow-container {
 max-width:1050px;
      padding-top: 50px;
