@@ -242,7 +242,8 @@ text-decoration: underline;
   background-color:none;
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 800px) {
+
     .myname
     {
         display:none;
@@ -271,3 +272,4 @@ text-decoration: underline;
     }
 
 }
+
