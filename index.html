@@ -5,6 +5,8 @@
     <header>
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </header>
     
@@ -27,47 +29,35 @@
     
 
     <section class="middle">  
-        <!--HIRSCH-->
-        <div class="blank"></div>
- <div class="slideshow-container">
-        <div class="mySlides fade">
-                <img src=images/hirsch-homepage.jpg style="width:100%">
-  </div>
-        <div class="mySlides fade">
-  <img src=images/hirsch-contact.jpg style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src=images/hirsch-projects.jpg style="width:100%">
-  </div>
+         <!-HIRSCH-->
 
+    <div class="slideshow-container">
   <div class="mySlides fade">
-    <img src=images/hirsch-business-cards.jpg style="width:100%">
-  </div>
-
+          <img src="images/hirsch-homepage.jpg" style="width:100%">
+   </div>
+    <div class="mySlides fade">
+         <img src="images/hirsch%20contact.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+         <img src="images/hirsch-projects.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+         <img src="images/hirsch-business-cards.jpg" style="width:100%">
+        </div>
   <a class="prev" >&#8592;</a>
   <a class="next">&#8594;</a>
 <div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot" ></span>
-  <span class="dot" ></span>
+ <span class="dot"></span>
    <span class="dot"></span>
-    
-    
-         <!--Hirsch-->
-   <br> </div>  
-</div>
-   <div class="text"><i>HIRSCH</i>
-<br>    
-       <br>
-        Web design and branding for concept interior design store HIRSCH. HIRSCH focuses on finding the essence of a room. HIRSCH's brand story centres around combining both the practical and aesthetic sides of their brand story, the branding and web design reflect this dichotomy. </div>
-        <br>
-                <br>
-    
-
-
-
-
-
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div> 
+    </div>
+              <div class="text"><i>HIRSCH</i><br>
+         <br>
+Web design and branding for concept interior design store HIRSCH. HIRSCH focuses on finding the essence of a room. HIRSCH's brand story centres around combining both the practical and aesthetic sides of their brand story, the branding and web design reflect this dichotomy.
+          </div> 
+  
   <!--PANGRAM-->
 
     <div class="slideshow-container">
@@ -377,3 +367,21 @@ function topFunction() {
   }
 })();</script>
 
+    <script>
+$(document).ready(function() {  
+
+					//Enable swiping...
+					$("slideshow-container").swipe( {
+						//Generic swipe handler for all directions
+						swipeLeft:function(event, direction, distance, duration, fingerCount) {
+							$(this).parent().mySlides('prev'); 
+						},
+						swipeRight: function() {
+							$(this).parent().mySlides ('next'); 
+						},
+						//Default is 75px, set to 0 for demo so any distance triggers swipe
+						threshold:0
+					});
+				});
+</script>
+ 
