@@ -1,0 +1,229 @@
+
+.projects
+{
+    position: absolute;
+width: 20vw;
+left: 17.5vw;
+    margin-top: 10vw;
+    font-size: 3vw;
+text-align: center; 
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+
+
+.block-1 
+{
+ float:right;
+    
+    display:block;
+    margin-left:50%;
+
+    
+}
+
+.block-2
+{
+   float:left;
+margin-right:50%;
+    display:block;
+     margin-top:-15vw;
+}
+
+.block-3 
+{
+
+ float:right;
+    
+    display:block;
+    margin-left:50%;
+     margin-top:-15vw;
+   
+    
+}
+
+.block-4
+
+{
+    float:left;
+margin-right:50%;
+    display:block;
+     margin-top:-15vw;
+    margin-bottom: 5vw;
+}
+
+.block-wrapper
+{
+    margin-top:10vw;
+    height:auto;
+        margin-left:12.5%;
+      margin-right:12.5%;
+    width:75%;
+    display: block;
+    position:static;
+      margin-bottom:10vw;
+   
+}
+.everlane-wrapper
+{
+    margin-top:0vw;
+    height:auto;
+        margin-left:10%;
+      margin-right:10%;
+    width:80%;
+    display: block;
+    position:static;
+      margin-bottom:10vw;
+   
+}
+
+
+
+.block-5
+{
+    float:left;
+    display:block;
+    margin-right:50%;
+    margin-top:0px;
+}
+.block-6 
+{
+float:right;
+    display:block;
+    margin-left:50%;
+        margin-top:100px;
+    
+}
+.block-7
+{
+float:left;
+    display:block;
+    margin-right:50%;
+        margin-top:100px;
+    
+}
+
+.p1
+{
+   font-size:2.2vw; 
+    margin-top:20px;
+}
+
+.p2
+{
+   font-size:1.4vw;  
+}
+
+
+
+
+.block-1 img
+{
+      width:30vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+.block-2 img
+{
+      width:30vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+.block-3 img
+{
+      width:30vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+.block-4 img
+{
+      width:30vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+.block-5 img
+{
+      width:40vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+.block-6 img
+{
+      width:40vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+.block-7 img
+{
+      width:40vw;
+       border: 1px solid #000000;
+box-sizing: border-box;
+    display: block; 
+        height:auto;
+}
+
+
+a
+{
+  color:black;
+    text-decoration: none;
+        font-weight: normal; 
+     font-style: normal;
+}
+
+
+
+.logo:hover
+{
+      text-decoration: none;
+        font-weight: normal; 
+     font-style: normal;
+}
+
+
+a
+{
+    display:block;
+
+}
+
+a:hover
+{
+    text-decoration:underline;
+
+}
+.textblock
+{
+    margin-top:10vw;
+    font-size: 2vw;
+    width:100%;
+    text-align: center;
+    height:auto;
+    display:block;
+    margin-bottom:100px;
+    
+}
+.back
+{
+    font-size:2vw;
+float:left;
+    display:block;
+    margin-right:50%;
+    margin-top:100px;
+        margin-bottom:100px;
+
+
+}
