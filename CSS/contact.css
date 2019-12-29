@@ -30,6 +30,10 @@ text-align: left;
     text-decoration: underline;
 }
 
+.text2
+{
+    display:none;
+}
 
 footer
 {
