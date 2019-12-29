@@ -1,0 +1,175 @@
+
+.contact
+{
+    position: absolute;
+width: 20vw;
+height: auto;
+left: 10vw; 
+    font-size: 3vw;
+text-align: center; 
+border: 1px solid #000000;
+box-sizing: border-box;
+    margin-top:1vw;
+       display: block;
+}
+.text
+{
+    position: absolute;
+width: 20vw;
+height: auto;
+left: 10vw;
+    margin-top: 8vw;
+    font-size: 1.3vw;
+text-align: left; 
+    display: block;
+
+}
+
+.text a:hover
+{
+    text-decoration: underline;
+}
+
+
+footer
+{
+    height:100px;
+}
+
+a
+{
+      text-decoration: none;
+        font-weight: normal; 
+     font-style: normal;
+    color:black;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 40vw; /* Full width */
+  padding: 10px; /* Some padding */
+    margin-bottom: 0px;
+    font-size: 1vw;
+    margin-top: 0px;
+          display: block;
+  border: 1px solid #000000; /* black border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+ /* Add a top margin *
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+    font-size: 1.5vw;
+    margin-bottom: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+       margin-left: 45vw;
+    
+    font-size: 1.5vw;
+    margin-top: 9vw;
+}
+
+/* MOBILE */
+@media (max-width: 767px) 
+{
+
+    .container {
+  border-radius: 5px;
+  padding: 10px;
+       margin-left: 0vw;
+    
+    font-size:4vw;
+    margin-top: 25vw;
+}    
+    input[type=text], select, textarea {
+  width: 95vw; /* Full width */
+  padding: 10px; /* Some padding */
+    margin-bottom: 0px;
+    font-size: 5vw;
+    margin-top: 0px;
+        margin-right:0%;
+          display: block;
+  border: 1px solid #000000; /* black border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+ /* Add a top margin *
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+    .text2
+{
+    position: absolute;
+width: 100vw;
+height: auto;
+left: 2.5vw;
+    margin-top: 10vw;
+      margin-bottom: 5vw;
+    font-size: 5vw;
+text-align: left; 
+    display: block;
+
+}
+    .text
+    {
+        display:none;
+    }
+       .contact
+    {
+            top:25vw;
+         margin-bottom:50px;
+   display:block;
+        position:relative
+    justify-content: center;
+        position: absolute;
+margin-left:13.5%;
+    width:50%;
+text-align: center; 
+border: 1px solid #000000;
+box-sizing: border-box;
+    font-size: 6vw;
+    }
+    .container-wrapper
+    {
+        margin:0;
+        padding:0;
+        
+    }
+    .container
+    {
+        margin-top:150px;
+
+    }
+    
+    input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+    font-size: 4vw;
+    margin-bottom: 0px;
+  border: none;
+  cursor: pointer;
+}
+ input[type=text], select, textarea {
+  width: 95vw; /* Full width */
+  padding: 10px; /* Some padding */
+}
+
+

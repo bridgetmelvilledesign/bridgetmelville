@@ -1,0 +1,135 @@
+
+
+.story
+{
+    position: static;
+width: 20vw;
+height: auto;
+    font-size: 3vw;
+
+border: 1px solid #000000;
+    padding:0;
+    text-align: center;
+    margin-top:10vw;
+  
+     
+}
+
+
+.text
+{
+    position:absolute;
+    font-size: 1.3vw;
+text-align: left; 
+height:auto;
+       height:auto;
+    width: 20vw;
+    margin-top:17vw;
+
+         
+
+}
+
+.text a:hover
+{
+    text-decoration: underline;
+}
+
+
+footer
+{
+    height:100px;
+}
+
+a
+{
+      text-decoration: none;
+        font-weight: normal; 
+     font-style: normal;
+    color:black;
+}
+
+img
+{
+    width:50vw;
+          margin-top:10vw;
+    border: 1px solid #000000;
+   
+}
+
+
+.image
+{
+
+    width:50vw;
+     display:inline-flex;
+       height:auto;
+      margin-left:10vw;
+       margin-top:10vw;
+    
+   
+
+    
+}
+.container
+{
+display: inline-flex;
+    float:right;
+    margin-top:2vw;
+      margin-right:10vw;
+   
+}
+/* MOBILE */
+@media (max-width: 767px) {
+.nav-wrapper
+{
+display:block;
+    }
+    
+    
+.story
+{
+        margin-top:20vw;
+   display:block;
+    justify-content: center;
+    width:50%;
+text-align: center; 
+border: 1px solid #000000;
+box-sizing: border-box;
+    font-size: 6vw;
+    margin-left:auto;
+      margin-right:auto;
+}
+    .container
+{
+display: block;
+    float:none;
+      margin:auto;
+   
+}
+    img
+{
+    width:80vw;
+          margin-top:10vw;
+    border: 1px solid #000000;
+    margin-left:auto;
+         margin-right:auto;
+   
+}
+    
+.text
+{
+    display:block;
+    font-size: 4.5vw;
+text-align: left; 
+    margin-left:10vw;
+       margin-right:auto;
+    justify-content: center;
+    width: 80vw;
+    margin-bottom:100px;
+
+         
+
+}
+
+}

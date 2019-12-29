@@ -1,0 +1,267 @@
+main {
+display:none;
+    
+}
+
+.sidebar {
+display:none;
+}
+
+.sidebar-item {
+display:none;
+}
+
+
+.bar {
+display:none;
+}
+.hirsch
+{
+display:none;
+}
+
+.button {
+display:none;
+}
+
+.nav-right {
+display:none;
+}
+
+.nav-right.visible-xs {
+display:none;
+}
+
+.hidden-xs {
+  display: none;
+}
+
+.middle {
+display:none;
+}
+
+.bar {
+display:none;
+}
+
+.nav-right.visible-xs .active .bar {
+display:none;
+}
+
+.button.active .top {
+display:none;
+}
+
+.button.active .bottom {
+ display:none;
+ 
+}
+
+.button.active .middle {
+  display:none;
+}
+
+
+nav {
+  padding-top: 0px;
+        display:block;
+}
+
+.sidebar-list {
+display:none;
+}
+
+.sidebar-item:hover
+{
+text-decoration: none;
+}
+.sidebar
+{
+      transition: all .3s ease;
+}
+
+    .sidebar.show
+    {
+        z-index:5;
+        transform:translateX(-0vw);
+            
+    }
+/* MOBILE */
+@media (max-width: 767px) 
+{
+
+main {
+  z-index: 2;
+  position: relative;
+    display: block;
+    top:0;
+    left:0;
+  height: 100%;
+  background-color: white;
+  -webkit-transition: transform .7s ease-in-out;
+  -moz-transition: transform .7s ease-in-out;
+  -ms-transition: transform .7s ease-in-out;
+  -o-transition: transform .7s ease-in-out;
+  transition: transform .7s ease-in-out;
+    
+}
+
+.sidebar {
+  height: 100%;
+  width: 54vw;
+  position: absolute;
+    padding-top:10%;
+    padding-left:10%;
+  top: 0;
+  z-index: 1;
+  right: 0;
+background-color: white;
+    border: 1px solid #000000;
+    box-sizing:border-box;
+      transform:translateX(56vw);
+    display:block;
+}
+
+.sidebar-item {
+margin-top:25%;
+    font-size:6vw;
+        display:block;
+}
+
+
+.bar {
+  display: block;
+  height: 2px;
+  width: 30px;
+  background-color: black;
+  margin: 10px auto;
+    float:none;
+    z-index:17;
+        display:block;
+}
+.hirsch
+{
+    float:left;
+    position:absolute;
+ left:7%;
+    margin-top:0%;
+    top:3%;
+    font-size: 8vw;
+      z-index:10;
+        display:block;
+    
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+        display:block;
+}
+
+.nav-right {
+  position:absolute;
+  right: 40px;
+  top: 20px;
+        display:block;
+}
+
+.nav-right.visible-xs {
+  z-index: 6;
+        display:block;
+}
+
+.hidden-xs {
+  display: none;
+        display:block;
+}
+
+.middle {
+  margin: 0 auto;
+        display:block;
+}
+
+.bar {
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+    z-index:17;
+        display:block;
+}
+
+.nav-right.visible-xs .active .bar {
+  background-color: black;
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -ms-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+    z-index:10;
+        display:block;
+}
+
+.button.active .top {
+  -webkit-transform: translateY(15px) rotateZ(60deg);
+  -moz-transform: translateY(15px) rotateZ(60deg);
+  -ms-transform: translateY(15px) rotateZ(60deg);
+  -o-transform: translateY(15px) rotateZ(60deg);
+  transform: translateY(15px) rotateZ(50deg);
+    z-index:17;
+        display:block;
+}
+
+.button.active .bottom {
+  -webkit-transform: translateY(-9px) rotateZ(-50deg);
+  -moz-transform: translateY(-9px) rotateZ(-50deg);
+  -ms-transform: translateY(-9px) rotateZ(-50deg);
+  -o-transform: translateY(-9px) rotateZ(-50deg);
+  transform: translateY(-9px) rotateZ(-50deg);
+    z-index:17;
+     display:block;
+}
+
+.button.active .middle {
+  width: 0;
+    z-index:17;
+      
+}
+
+
+
+nav {
+  padding-top: 0px;
+        display:block;
+}
+
+.sidebar-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+        display:block;
+}
+
+.sidebar-item:hover
+{
+text-decoration: underline;
+}
+.sidebar
+{
+      transition: all .3s ease;
+}
+
+    .sidebar.show
+    {
+        z-index:5;
+        transform:translateX(-0vw);
+            
+    }
+}
