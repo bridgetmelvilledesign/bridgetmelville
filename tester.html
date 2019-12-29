@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+    <header>
+    <link rel="stylesheet" href="CSS/tester.css">
+        <link rel="stylesheet" href="CSS/base.css">
+                <link rel="stylesheet" href="CSS/hirsch.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </header>
+
+      <!--mobile-->
+        <div class="nav-wrapper">
+<nav>
+    <ul>
+       <li class="logo"><a href="hirsch.html">HIRSCH</a></li>
+        <li class="links"><a href="contact.html">CONTACT</a></li>
+ <li class="links"><a href="story.html">STORY</a></li>
+        <li class="links"><a href="projects.html">PROJECTS</a></li>
+        </ul>
+    </nav>
+        </div>
+        
+
+<!-- nav-right -->
+  <div class="hirsch"><a href="hirsch.html">HIRSCH</a></div>
+    <div class="nav-right visible-xs">
+  <div class="button" id="btn">
+    <div class="bar top"></div>
+    <div class="bar middle"></div>
+    <div class="bar bottom"></div>
+  </div>
+</div>
+<!-- nav-right -->
+
+
+
+  <nav>
+    <div class="nav-right hidden-xs">
+      <div class="button" id="btn">
+        <div class="bar top"></div>
+        <div class="bar middle"></div>
+        <div class="bar bottom"></div>
+      </div>
+    </div>
+    <!-- nav-right -->
+  </nav>
+
+
+<div class="sidebar">
+  <ul class="sidebar-list">
+    <li class="sidebar-item"><a href="projects.html" class="sidebar-anchor">PROJECTS</a></li>
+    <li class="sidebar-item"><a href="story.html" class="sidebar-anchor">STORY</a></li>
+    <li class="sidebar-item"><a href="contact.html" class="sidebar-anchor">CONTACT</a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function() {
+
+  function toggleSidebar() {
+    $(".button").toggleClass("active");
+    $("main").toggleClass("move-to-left");
+    $(".sidebar-item").toggleClass("active");
+      $(".sidebar").toggleClass("show");
+  }
+
+  $(".button").on("click tap", function() {
+    toggleSidebar();
+  });
+
+  $(document).keyup(function(e) {
+    if (e.keyCode === 27) {
+      toggleSidebar();
+    }
+  });
+
+});
+</script>
+     <section>
+         <p class="essence2">THE ESSENCE <br>OF A ROOM</p>
+     <div class="homepage-wrapper">
+   
+ <hr>
+           
+        <p class="essence">THE ESSENCE</p>
+         <p class="room">OF A ROOM </p>
+       
+         <div class=homeimage> <img src=hirschimages/red-room.jpg> 
+ 
+</div>
+         </div>
+     </section>
+    
+        <section>
+         <div class="wow">
+     <hr> 
+                 <img src=hirschimages/green-room.png> 
+         
+</div>
+   <p class="text2"><a href="projects.html">SEE PROJECTS →</a></p>
+            </section>
+    
+<section>
+    <footer>    <div class="foot-wrapper">
+    <ul>
+       <li class="logo2"><a href="contact.html">Ready to talk business? →</a></li>
+        </ul>
+         </div>
+    </footer>
+    </section>

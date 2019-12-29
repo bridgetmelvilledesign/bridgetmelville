@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <header>
+    <link rel="stylesheet" href="CSS/story.css">
+         <link rel="stylesheet" href="CSS/base.css">
+        <link rel="stylesheet" href="CSS/tester.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+    <section>
+      <div class="nav-wrapper">
+<nav>
+    <ul>
+          <li class="logo"><a href="hirsch.html">HIRSCH</a></li>
+        <li class="links"><a href="contact.html">CONTACT</a></li>
+         <li class="links"><a href="story.html">STORY</a></li>
+        <li class="links"><a href="projects.html">PROJECTS</a></li>
+        </ul>
+    </nav>
+        </div>
+         
+<!-- nav-right -->
+  <div class="hirsch"><a href="hirsch.html">HIRSCH</a></div>
+    <div class="nav-right visible-xs">
+  <div class="button" id="btn">
+    <div class="bar top"></div>
+    <div class="bar middle"></div>
+    <div class="bar bottom"></div>
+  </div>
+</div>
+<!-- nav-right -->
+
+
+
+  <nav>
+    <div class="nav-right hidden-xs">
+      <div class="button" id="btn">
+        <div class="bar top"></div>
+        <div class="bar middle"></div>
+        <div class="bar bottom"></div>
+      </div>
+    </div>
+    <!-- nav-right -->
+  </nav>
+
+
+<div class="sidebar">
+  <ul class="sidebar-list">
+    <li class="sidebar-item"><a href="projects.html" class="sidebar-anchor">PROJECTS</a></li>
+    <li class="sidebar-item"><a href="story.html" class="sidebar-anchor">STORY</a></li>
+    <li class="sidebar-item"><a href="contact.html" class="sidebar-anchor">CONTACT</a></li>
+  </ul>
+</div>
+<script>
+$(document).ready(function() {
+
+  function toggleSidebar() {
+    $(".button").toggleClass("active");
+    $("main").toggleClass("move-to-left");
+    $(".sidebar-item").toggleClass("active");
+      $(".sidebar").toggleClass("show");
+  }
+
+  $(".button").on("click tap", function() {
+    toggleSidebar();
+  });
+
+  $(document).keyup(function(e) {
+    if (e.keyCode === 27) {
+      toggleSidebar();
+    }
+  });
+
+});
+</script>
+    
+
+    
+                  <div class="container">
+                      <div>
+                        <p class="story">
+               STORY
+            </p>
+                          </div>
+                              <div class=image><img  src="hirschimages/cafe-view-2.jpg"></div>
+                             <p class="text">
+            Hirsch's motto is to focus on the essence of a room.<br>
+                                 <br>
+        Straight from our Melbourne office, Hirsch tailors their interior design approach to your space. 
+                                 <br>
+                                 <br>
+                                 We were voted the best Melbourne interior design firm in 2018 in the IDA. Our design practice involves commercial, retail and personal spaces. Why not contact us? Let's create something together. 
+             </p>
+                     
+    </div>
+
+    
+
+         
+      
+
+     
+
+  
+    <footer></footer>
