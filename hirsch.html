@@ -5,10 +5,8 @@
     <link rel="stylesheet" href="CSS/tester.css">
         <link rel="stylesheet" href="CSS/base.css">
                 <link rel="stylesheet" href="CSS/hirsch.css">
-       <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     </header>
-
+<body>
       <!--mobile-->
         <div class="nav-wrapper">
 <nav>
@@ -54,28 +52,6 @@
     <li class="sidebar-item"><a href="contact.html" class="sidebar-anchor">CONTACT</a></li>
   </ul>
 </div>
-<script>
-$(document).ready(function() {
-
-  function toggleSidebar() {
-    $(".button").toggleClass("active");
-    $("main").toggleClass("move-to-left");
-    $(".sidebar-item").toggleClass("active");
-      $(".sidebar").toggleClass("show");
-  }
-
-  $(".button").on("click tap", function() {
-    toggleSidebar();
-  });
-
-  $(document).keyup(function(e) {
-    if (e.keyCode === 27) {
-      toggleSidebar();
-    }
-  });
-
-});
-</script>
     
      <section>
          <p class="essence2">THE ESSENCE <br>OF A ROOM</p>
@@ -109,3 +85,28 @@ $(document).ready(function() {
          </div>
     </footer>
     </section>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+$(document).ready(function() {
+
+  function toggleSidebar() {
+    $(".button").toggleClass("active");
+    $("main").toggleClass("move-to-left");
+    $(".sidebar-item").toggleClass("active");
+      $(".sidebar").toggleClass("show");
+  }
+
+  $(".button").on("click tap", function() {
+    toggleSidebar();
+  });
+
+  $(document).keyup(function(e) {
+    if (e.keyCode === 27) {
+      toggleSidebar();
+    }
+  });
+
+});
+</script>
+    </body>
